@@ -1,0 +1,212 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		menu_options
+	 *	@date 		Wednesday 12th of April 2023 05:43:55 AM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/menu_options"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		>
+
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" >
+
+
+			<View
+				android:id="@+id/_bg__menu_options"
+				android:layout_width="360dp"
+				android:layout_height="650dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/_bg__menu_options_shape" />
+
+			<RelativeLayout android:id="@+id/pokeball"
+				android:layout_marginTop="55dp"
+				android:layout_marginStart="140dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<ImageButton android:id="@+id/ibPokeball"
+					android:src="@drawable/pokeball"
+					android:background="@color/Vino"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="100dp"
+					android:layout_height="100dp" />
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/tienda"
+				android:layout_marginTop="317dp"
+				android:layout_marginStart="60dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/rectangle_20"
+					android:background="@drawable/rectangle_20_ek1_shape"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="240dp"
+					android:layout_height="70dp" />
+
+				<ImageView android:id="@+id/mask_group"
+					android:src="@drawable/mask_group"
+					android:contentDescription="mask_group"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="240dp"
+					android:layout_height="70dp" />
+
+				<TextView
+					android:id="@+id/tiendaOp"
+					android:layout_width="240dp"
+					android:layout_height="70dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:fontFamily="@font/ruda"
+					android:gravity="center"
+					android:text="@string/tienda_ek1_string"
+					android:textColor="@color/Vino"
+					android:textSize="28sp"
+					android:textStyle="bold" />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/pokedex"
+				android:layout_marginTop="222dp"
+				android:layout_marginStart="60dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/rectangle_21"
+					android:background="@drawable/rectangle_20_ek1_shape"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="240dp"
+					android:layout_height="70dp" />
+
+				<TextView
+					android:id="@+id/pokedexOp"
+					android:layout_width="240dp"
+					android:layout_height="70dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:fontFamily="@font/ruda"
+					android:gravity="center"
+					android:text="Pokedex"
+					android:textColor="@color/Vino"
+					android:textSize="28sp"
+					android:textStyle="bold" />
+
+				<ImageView
+
+					android:layout_width="240dp"
+					android:layout_height="70dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:contentDescription="mask_group_ek1"
+					android:src="@drawable/mask_group_ek1" />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/opciones"
+				android:layout_marginTop="507dp"
+				android:layout_marginStart="60dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/rectangle_20_ek1"
+					android:background="@drawable/rectangle_20_ek1_shape"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="240dp"
+					android:layout_height="70dp" />
+
+				<ImageView android:id="@+id/mask_group_ek2"
+					android:src="@drawable/mask_group_ek2"
+					android:contentDescription="mask_group_ek2"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="240dp"
+					android:layout_height="70dp" />
+
+				<TextView android:id="@+id/opcionesOp"
+					android:fontFamily="@font/ruda"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="28sp"
+					android:textColor="@color/Vino"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="240dp"
+					android:layout_height="70dp"
+					android:text="Ajustes"
+					/>
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/perfil"
+				android:layout_marginTop="412dp"
+				android:layout_marginStart="60dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/rectangle_19"
+					android:background="@drawable/rectangle_20_ek1_shape"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="240dp"
+					android:layout_height="70dp" />
+
+				<ImageView android:id="@+id/mask_group_ek3"
+					android:src="@drawable/mask_group_ek3"
+					android:contentDescription="mask_group_ek3"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="240dp"
+					android:layout_height="70dp" />
+
+				<TextView android:id="@+id/perfilOp"
+					android:fontFamily="@font/ruda"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="28sp"
+					android:textColor="@color/Vino"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="240dp"
+					android:layout_height="70dp"
+					android:text="@string/perfil_ek1_string"
+					/>
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

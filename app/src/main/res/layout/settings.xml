@@ -1,0 +1,197 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content"
+	android:background="@color/Vino">
+
+	<ScrollView android:id="@+id/settings"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		>
+
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" >
+
+			<View
+				android:id="@+id/_bg__settings"
+				android:layout_width="400dp"
+				android:layout_height="850dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/_bg__settings_shape"
+				/>
+
+			<TextView android:id="@+id/pokefeet_1_0_0"
+				android:fontFamily="@font/ruda"
+				android:textStyle="bold"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="14sp"
+				android:textColor="@color/rectangleColor"
+				android:layout_marginLeft="130dp"
+				android:layout_marginTop="725dp"
+				android:layout_width="108dp"
+				android:layout_height="27dp"
+				android:text="PokeFeet 1.0.0"
+				/>
+
+
+			<RelativeLayout android:id="@+id/group_37"
+				android:layout_marginTop="320dp"
+				android:layout_marginStart="80dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View
+					android:id="@+id/rectangle_17"
+					android:layout_width="240dp"
+					android:layout_height="70dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/rectangle_18_shape" />
+
+				<Button android:id="@+id/btnprivacidad"
+					android:fontFamily="@font/ruda"
+					android:background="@drawable/rectangle_18_shape"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:textColor="@color/Vino"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="240dp"
+					android:layout_height="70dp"
+					android:text="Privacidad"
+					/>
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/group_38"
+				android:layout_marginTop="440dp"
+				android:layout_marginStart="80dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/rectangle_18"
+					android:background="@drawable/rectangle_18_shape"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="240dp"
+					android:layout_height="70dp" />
+
+				<Button android:id="@+id/btnseguridad"
+					android:fontFamily="@font/ruda"
+					android:background="@drawable/rectangle_18_shape"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:textColor="@color/Vino"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="240dp"
+					android:layout_height="70dp"
+					android:text="Seguridad"
+					/>
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/group_39"
+				android:layout_marginTop="555dp"
+				android:layout_marginStart="80dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+
+
+				<Button android:id="@+id/tvCerrarSesion"
+					android:fontFamily="@font/ruda"
+					android:background="@drawable/rectangle_18_shape"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:textColor="@color/Vino"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="240dp"
+					android:layout_height="70dp"
+					android:text="Cerrar Sesion"
+					/>
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/group_36"
+				android:layout_marginTop="200dp"
+				android:layout_marginStart="80dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/rectangle_16"
+					android:background="@drawable/rectangle_pokemons"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="240dp"
+					android:layout_height="70dp" />
+
+				<Button android:id="@+id/btnidioma"
+					android:fontFamily="@font/ruda"
+					android:background="@drawable/rectangle_18_shape"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="24sp"
+					android:textColor="@color/Vino"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="240dp"
+					android:layout_height="70dp"
+					android:text="Idioma"
+					/>
+
+			</RelativeLayout>
+
+			<TextView android:id="@+id/ajustes"
+				android:fontFamily="@font/ruda"
+				android:textStyle="bold"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="32sp"
+				android:textColor="@color/beige"
+				android:layout_marginLeft="135dp"
+				android:layout_marginTop="75dp"
+				android:layout_width="132dp"
+				android:layout_height="61dp"
+				android:text="Ajustes"
+				/>
+
+
+			<RelativeLayout android:id="@+id/____icon__arrow_left_"
+				android:layout_marginTop="40dp"
+				android:layout_marginStart="40dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<ImageButton
+					android:id="@+id/ajustesOptions"
+					android:layout_width="60dp"
+					android:layout_height="50dp"
+					android:layout_marginTop="0dp"
+					android:background="@color/Vino"
+
+					android:src="@drawable/vector" />
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

@@ -1,0 +1,158 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content"
+	android:background="@color/Vino">
+
+	<ScrollView android:id="@+id/profile"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+
+		>
+
+		<RelativeLayout android:id="@+id/content_container"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			>
+
+			<View
+				android:id="@+id/_bg__profile"
+				android:layout_width="400dp"
+				android:layout_height="800dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/_bg__profile_shape" />
+
+			<TextView
+				android:fontFamily="@font/ruda"
+				android:textStyle="bold"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="32sp"
+				android:textColor="@color/beige"
+				android:layout_marginLeft="134dp"
+				android:layout_marginTop="50dp"
+				android:layout_width="102dp"
+				android:layout_height="61dp"
+				android:text="Perfil"
+				/>
+
+			<TextView android:id="@+id/yourfriendlyadc"
+				android:fontFamily="@font/ruda"
+				android:textStyle="bold"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="20sp"
+				android:textColor="@color/beige"
+				android:layout_marginLeft="98dp"
+				android:layout_marginTop="292dp"
+				android:layout_width="171dp"
+				android:layout_height="38dp"
+				android:text="Pepitojm"
+				/>
+
+			<TextView android:id="@+id/pasos_totales"
+				android:fontFamily="@font/ruda"
+				android:textStyle="bold"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="20sp"
+				android:textColor="@color/beige"
+				android:layout_marginLeft="37dp"
+				android:layout_marginTop="400dp"
+				android:layout_width="144dp"
+				android:layout_height="38dp"
+				android:text="Pasos Totales"
+				/>
+
+			<TextView android:id="@+id/pokemons_totales"
+				android:fontFamily="@font/ruda"
+				android:textStyle="bold"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="20sp"
+				android:textColor="@color/beige"
+				android:layout_marginLeft="37dp"
+				android:layout_marginTop="484dp"
+				android:layout_width="188dp"
+				android:layout_height="38dp"
+				android:text="Pokemons Totales"
+				/>
+
+			<TextView
+				android:id="@+id/Genero"
+				android:layout_width="78dp"
+				android:layout_height="38dp"
+				android:layout_gravity="center_horizontal|center"
+				android:layout_marginLeft="37dp"
+				android:layout_marginTop="568dp"
+				android:fontFamily="@font/ruda"
+				android:gravity="center"
+				android:text="genero"
+				android:textColor="@color/beige"
+				android:textSize="20sp"
+				android:textStyle="bold" />
+
+			<TextView
+				android:id="@+id/Pokemon"
+				android:layout_width="108dp"
+				android:layout_height="38dp"
+				android:layout_gravity="center_horizontal|center"
+				android:layout_marginLeft="37dp"
+				android:layout_marginTop="700dp"
+				android:fontFamily="@font/ruda"
+				android:gravity="center"
+				android:text="pokemon"
+				android:textColor="@color/beige"
+				android:textSize="20sp"
+				android:textStyle="bold" />
+
+			<TextView android:id="@+id/nv__12"
+				android:fontFamily="@font/ruda"
+				android:textStyle="bold"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="16sp"
+				android:textColor="@color/beige"
+				android:layout_marginLeft="154dp"
+				android:layout_marginTop="321dp"
+				android:layout_width="70dp"
+				android:layout_height="30dp"
+				android:text="Nivel 14"
+				/>
+
+
+			<RelativeLayout android:id="@+id/____icon__arrow_left_"
+				android:layout_marginTop="40dp"
+				android:layout_marginStart="40dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<ImageButton android:id="@+id/profileOptions"
+					android:src="@drawable/vector"
+					android:background="@color/Vino"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="35dp"
+					android:layout_height="30dp" />
+
+			</RelativeLayout>
+
+			<ImageView android:id="@+id/ivFotoPerfil"
+				android:src="@drawable/dinofoto"
+				android:layout_marginStart="105dp"
+				android:layout_marginTop="125dp"
+				android:layout_width="150dp"
+				android:layout_height="150dp" />
+
+			<ImageView android:id="@+id/___squirtle_5"
+				android:src="@drawable/___squirtle_1"
+				android:contentDescription="___squirtle_5"
+				android:layout_marginStart="106dp"
+				android:layout_marginTop="225dp"
+				android:layout_width="50dp"
+				android:layout_height="50dp" />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

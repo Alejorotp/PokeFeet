@@ -1,0 +1,184 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/Vino"
+    >
+    <ScrollView android:id="@+id/shop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView android:id="@+id/tienda"
+                android:fontFamily="@font/ruda"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal|center"
+                android:gravity="center"
+                android:textSize="32sp"
+                android:textColor="@color/beige"
+                android:layout_marginLeft="133dp"
+                android:layout_marginTop="50dp"
+                android:layout_width="123dp"
+                android:layout_height="61dp"
+                android:text="Tienda"
+                />
+
+            <TextView android:id="@+id/gratis"
+                android:fontFamily="@font/ruda"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/beige"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="155dp"
+                android:layout_width="82dp"
+                android:layout_height="38dp"
+                android:text="Gratis"
+                />
+
+            <ImageButton
+                android:id="@+id/frenesi"
+                android:layout_width="150dp"
+                android:layout_height="145dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="190dp"
+                android:contentDescription="frenesi"
+                android:src="@drawable/image_7" />
+
+            <ImageButton
+                android:id="@+id/llaveButton"
+                android:layout_width="150dp"
+                android:layout_height="145dp"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="190dp"
+                android:contentDescription="image_8"
+                android:src="@drawable/image_8" />
+
+            <TextView android:id="@+id/cofres"
+                android:fontFamily="@font/ruda"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/beige"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="346dp"
+                android:layout_width="86dp"
+                android:layout_height="38dp"
+                android:text="Cofres"
+                />
+
+
+            <RelativeLayout android:id="@+id/group_35"
+                android:layout_marginTop="105dp"
+                android:layout_marginStart="150dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/rectangle_35"
+                    android:background="@drawable/rectangle_35_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="90dp"
+                    android:layout_height="42dp" />
+
+
+                <RelativeLayout android:id="@+id/keys"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView android:id="@+id/keycountshop"
+                        android:fontFamily="@font/ruda"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal|center"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/Vino"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="36dp"
+                        android:layout_height="38dp"
+                        android:text="10"
+                        />
+
+                    <ImageView android:id="@+id/_2_removebg_preview__2___1__2"
+                        android:src="@drawable/llave1"
+                        android:contentDescription="_2_removebg_preview__2___1__2"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout android:id="@+id/____icon__arrow_left_"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageButton android:id="@+id/ibShop"
+                    android:background="@color/Vino"
+                    android:src="@drawable/vector"
+                    android:contentDescription="vector"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="55dp"
+                    android:layout_height="50dp" />
+
+            </RelativeLayout>
+
+            <ImageButton android:id="@+id/btn_comprar_agua"
+                android:src="@drawable/image_2"
+                android:contentDescription="image_2"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="381dp"
+                android:layout_width="153dp"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:id="@+id/btn_comprar_fuego"
+                android:layout_width="153dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="381dp"
+                android:contentDescription="image_3"
+                android:src="@drawable/image_3" />
+
+            <ImageButton
+                android:id="@+id/btn_comprar_rey"
+                android:src="@drawable/image_4"
+                android:contentDescription="image_4"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="493dp"
+                android:layout_width="320dp"
+                android:layout_height="120dp" />
+
+            <ImageButton
+                android:id="@+id/btn_comprar_electrico"
+                android:src="@drawable/image_6"
+                android:contentDescription="image_6"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="625dp"
+                android:layout_width="153dp"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:id="@+id/btn_comprar_planta"
+                android:src="@drawable/image_5"
+                android:contentDescription="image_5"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="625dp"
+                android:layout_width="153dp"
+                android:layout_height="100dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

@@ -1,0 +1,347 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Vino"
+    android:backgroundTint="@color/Vino"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/comienza_tu_aventura_"
+        android:layout_width="296dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/ruda"
+        android:text="@string/comienza_tu_aventura__string"
+        android:textColor="@color/beige"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/selecciona_tu_g_nero"
+        android:layout_width="195dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/ruda"
+        android:text="@string/selecciona_tu_g_nero_string"
+        android:textColor="@color/beige"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etContrasenaSU" />
+
+    <ImageButton
+        android:id="@+id/trainergirl"
+        android:layout_width="59.9dp"
+        android:layout_height="49.82dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="trainergirl"
+        android:background="@drawable/notselected"
+        android:src="@drawable/trainergirl"
+        android:tag="Mujer"
+        app:layout_constraintEnd_toStartOf="@+id/ibOtro"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toEndOf="@+id/trainerboy"
+        app:layout_constraintTop_toBottomOf="@+id/selecciona_tu_g_nero" />
+
+    <ImageButton
+        android:id="@+id/ibOtro"
+        android:layout_width="59.9dp"
+        android:layout_height="49.82dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="74dp"
+        android:contentDescription="___berries_1"
+        android:background="@drawable/notselected"
+        android:src="@drawable/___berries_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:tag="Otro"
+        app:layout_constraintTop_toBottomOf="@+id/selecciona_tu_g_nero" />
+
+    <ImageButton
+        android:id="@+id/trainerboy"
+        android:layout_width="59.9dp"
+        android:layout_height="49.82dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="trainerboy"
+        android:background="@drawable/notselected"
+        android:tag="Hombre"
+        android:src="@drawable/trainerboy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selecciona_tu_g_nero" />
+
+
+    <!--
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="76dp"
+        android:layout_height="83.03dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/rectangle_4_shape" />
+    -->
+
+    <TextView
+        android:id="@+id/mujer"
+        android:layout_width="50dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/ruda"
+        android:text="@string/mujer_string"
+        android:textAlignment="center"
+        android:textColor="@color/beige"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/trainergirl" />
+
+    <TextView
+        android:id="@+id/otro"
+        android:layout_width="57dp"
+        android:layout_height="23dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/ruda"
+        android:gravity="center"
+        android:text="@string/otro_string"
+        android:textAlignment="center"
+        android:textColor="@color/beige"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintStart_toEndOf="@+id/mujer"
+        app:layout_constraintTop_toTopOf="@+id/ibOtro" />
+
+    <TextView
+        android:id="@+id/hombre"
+        android:layout_width="67dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/ruda"
+        android:gravity="center"
+        android:text="@string/hombre_string"
+        android:textAlignment="center"
+        android:textColor="@color/beige"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/mujer"
+        app:layout_constraintHorizontal_bias="0.643"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/trainerboy" />
+
+    <TextView
+        android:id="@+id/escoge_tu_pokem_n_inicial"
+        android:layout_width="243dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/ruda"
+        android:text="@string/escoge_tu_pokem_n_inicial_string"
+        android:textColor="@color/beige"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mujer" />
+
+    <ImageButton
+        android:id="@+id/ibBulbasaur"
+        android:layout_width="59dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/notselected"
+        android:contentDescription="pokemon"
+        android:src="@drawable/___bulbasaur_1"
+        android:tag="Bulbasaur"
+        app:layout_constraintEnd_toStartOf="@+id/ibSquirtle"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toEndOf="@+id/ibCharmander"
+        app:layout_constraintTop_toBottomOf="@+id/escoge_tu_pokem_n_inicial" />
+
+    <ImageButton
+        android:id="@+id/ibCharmander"
+        android:layout_width="56dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/notselected"
+        android:contentDescription="___charmander_1"
+        android:tag="Charmander"
+        android:src="@drawable/___charmander_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/escoge_tu_pokem_n_inicial" />
+
+    <ImageButton
+        android:id="@+id/ibSquirtle"
+        android:layout_width="58.13dp"
+        android:layout_height="55.43dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="72dp"
+        android:contentDescription="___squirtle_1"
+        android:background="@drawable/notselected"
+        android:src="@drawable/___squirtle_1"
+        android:tag="Squirtle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/escoge_tu_pokem_n_inicial" />
+
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/rectangle_2_shape"
+        app:layout_constraintBottom_toTopOf="@+id/escribe_tu_contrase_a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/escribe_tu_nombre" />
+
+    <Button
+        android:id="@+id/btRegistrar"
+        android:layout_width="135dp"
+        android:layout_height="46dp"
+        android:text="Registrarse"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rectangle_1_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:onClick="click"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/bulbasaur"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/ruda"
+        android:gravity="center"
+        android:text="@string/bulbasaur_string"
+        android:textColor="@color/beige"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/squirtle"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toEndOf="@+id/charmander"
+        app:layout_constraintTop_toBottomOf="@+id/ibBulbasaur" />
+
+    <TextView
+        android:id="@+id/squirtle"
+        android:layout_width="77dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="64dp"
+        android:fontFamily="@font/ruda"
+        android:gravity="center"
+        android:text="@string/squirtle_string"
+        android:textColor="@color/beige"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibSquirtle" />
+
+    <TextView
+        android:id="@+id/charmander"
+        android:layout_width="100dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/ruda"
+        android:gravity="center"
+        android:text="@string/charmander_string"
+        android:textColor="@color/beige"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibCharmander" />
+
+
+    <View
+        android:id="@+id/rectangle_2_ek1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rectangle_2_shape"
+        app:layout_constraintBottom_toTopOf="@+id/selecciona_tu_g_nero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/escribe_tu_contrase_a" />
+
+
+    <TextView
+        android:id="@+id/escribe_tu_nombre"
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/ruda"
+        android:text="Escribe tu correo"
+        android:textColor="@color/beige"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/comienza_tu_aventura_" />
+
+    <EditText
+        android:id="@+id/etNombreSU"
+        android:layout_width="239dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/ruda"
+        android:hint="correo"
+        android:inputType="textPersonName"
+        android:textColor="@color/Vino"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/escribe_tu_nombre" />
+
+    <TextView
+        android:id="@+id/escribe_tu_contrase_a"
+        android:layout_width="237dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/ruda"
+        android:text="@string/escribe_tu_contrase_a_string"
+        android:textColor="@color/beige"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNombreSU" />
+
+    <EditText
+        android:id="@+id/etContrasenaSU"
+        android:layout_width="228dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/ruda"
+        android:hint="contraseña"
+        android:inputType="textPassword"
+        android:textColor="@color/Vino"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/escribe_tu_contrase_a" />
+
+
+    <View
+        android:id="@+id/ellipse_6"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="732dp"
+        android:layout_marginEnd="180dp"
+        android:background="@drawable/ellipse_6_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
