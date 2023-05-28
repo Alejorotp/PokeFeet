@@ -39,7 +39,7 @@
 			android:layout_marginLeft="9dp"
 			android:layout_marginTop="0dp"
 			android:fontFamily="@font/ruda"
-			android:text="Nombre"
+			android:text="Correo"
 			android:textColor="@color/beige"
 			android:textSize="20sp"
 			android:textStyle="bold" />
@@ -94,7 +94,7 @@
 			android:layout_marginLeft="9dp"
 			android:layout_marginTop="0dp"
 			android:fontFamily="@font/ruda"
-			android:text="contraseña"
+			android:text="Contraseña"
 			android:textColor="@color/beige"
 			android:textSize="20dp"
 			android:textStyle="bold" />
@@ -131,10 +131,9 @@
 	</RelativeLayout>
 
 	<View
-
 		android:id="@+id/view"
-		android:layout_width="290dp"
-		android:layout_height="300dp"
+		android:layout_width="266dp"
+		android:layout_height="263dp"
 		android:background="@drawable/ellipse_5_shape"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintEnd_toEndOf="parent" />

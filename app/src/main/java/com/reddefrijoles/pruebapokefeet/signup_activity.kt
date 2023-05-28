@@ -26,6 +26,7 @@ import androidx.appcompat.app.AlertDialog
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
+import com.reddefrijoles.pruebapokefeet.UserApplication.Companion.prefs
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.firestore.FirebaseFirestore
@@ -43,8 +44,8 @@ class signup_activity : Activity() {
     private var selectedPokemon: ImageButton? = null
     private var genero: String? = null
     private var pokemon: String? = null
+    private var idpokemon: String? = null
     private var btnRegistrar: Button? = null
-
 
     private val db = FirebaseFirestore.getInstance()
 
@@ -94,6 +95,7 @@ class signup_activity : Activity() {
                 selectedPokemon?.setBackgroundResource(R.drawable.notselected)
                 selectedPokemon = it as ImageButton
                 pokemon = selectedPokemon?.tag.toString()
+                idpokemon = "4"
 
                 selectedPokemon?.setBackgroundResource(R.drawable.rectangle_1_shape)
             }
@@ -103,6 +105,7 @@ class signup_activity : Activity() {
                 selectedPokemon?.setBackgroundResource(R.drawable.notselected)
                 selectedPokemon = it as ImageButton
                 pokemon = selectedPokemon?.tag.toString()
+                idpokemon = "1"
 
                 selectedPokemon?.setBackgroundResource(R.drawable.rectangle_1_shape)
             }
@@ -112,6 +115,7 @@ class signup_activity : Activity() {
                 selectedPokemon?.setBackgroundResource(R.drawable.notselected)
                 selectedPokemon = it as ImageButton
                 pokemon = selectedPokemon?.tag.toString()
+                idpokemon = "7"
 
                 selectedPokemon?.setBackgroundResource(R.drawable.rectangle_1_shape)
             }
@@ -120,33 +124,40 @@ class signup_activity : Activity() {
             var email = etNombre.text.toString()
             var password = etPassword.text.toString()
 
-            Toast.makeText(
-                this,
-                "Buenas Tardes $email su contraseña es $password, su pokemon es $pokemon y su genero es $genero",
-                Toast.LENGTH_LONG
-            ).show()
             if (!email.isEmpty() && !password.isEmpty() && genero != null && pokemon != null) {
                 FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password)
                     .addOnCompleteListener { task ->
                         if (task.isSuccessful) {
-                            Toast.makeText(this, "successfull registration", Toast.LENGTH_SHORT)
-                                .show()
+                            prefs.saveEmail(email)
+                            prefs.saveUserName(email)
                             db.collection("users").document(email).set(
                                 hashMapOf(
+                                    "username" to email,
                                     "genero" to genero,
-                                    "pokemon" to pokemon
+                                    "pokemons" to "0,$idpokemon",
+                                    "steps" to 0,
+                                    "keys" to 0
                                 )
                             )
+                            prefs.savePokemons("$idpokemon")
                             showHome(task.result?.user?.email ?: "", ProviderType.EMAIL)
                         } else {
                             FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password)
                                 .addOnCompleteListener {
                                     if (it.isSuccessful) {
-                                        Toast.makeText(
-                                            this,
-                                            "successfull login",
-                                            Toast.LENGTH_SHORT
-                                        ).show()
+                                        prefs.saveEmail(email)
+                                        prefs.saveUserName(email)
+                                        var steps = 0
+                                        var keys = 0
+                                        var pokemons = ""
+                                        db.collection("users").document(email).get().addOnSuccessListener {
+                                            steps = it.get("steps").toString().toInt()
+                                            prefs.saveSteps(steps)
+                                            keys = it.get("keys").toString().toInt()
+                                            prefs.saveKeys(keys)
+                                            pokemons = it.get("pokemons").toString()
+                                            prefs.savePokemonsDB(pokemons)
+                                        }
                                         showHome(it.result?.user?.email ?: "", ProviderType.EMAIL)
                                     } else {
                                         showAlert()
@@ -204,9 +215,9 @@ class signup_activity : Activity() {
 
     // prefs to keep session open
     private fun Session() {
-        val prefs = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE)
-        val email = prefs.getString("email", null)
-        val provider = prefs.getString("provider", null)
+        val Prefs = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE)
+        val email = Prefs.getString("email", null)
+        val provider = Prefs.getString("provider", null)
 
         if (email != null && provider != null) {
             showHome(email, ProviderType.valueOf(provider))

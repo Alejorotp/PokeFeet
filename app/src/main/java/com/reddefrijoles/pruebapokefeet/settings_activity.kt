@@ -22,6 +22,7 @@ import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 import com.google.firebase.auth.FirebaseAuth
+import com.reddefrijoles.pruebapokefeet.UserApplication.Companion.prefs
 
 
 class settings_activity : Activity() {
@@ -51,10 +52,10 @@ class settings_activity : Activity() {
 
     fun LogOut (){
         // data deleting
-        val prefs = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE).edit()
-        prefs.clear()
-        prefs.apply()
-
+        prefs.saveEmail(null)
+        prefs.saveSteps(0)
+        prefs.saveKeys(0)
+        prefs.eliminarPokemons()
         //singOut
         FirebaseAuth.getInstance().signOut()
 
@@ -65,6 +66,7 @@ class settings_activity : Activity() {
     fun showAuth(){
         val homeIntent= Intent(this,login_activity::class.java)
         startActivity(homeIntent)
+        main_menu_activity().closeActivity()
         finish()
     }
 }

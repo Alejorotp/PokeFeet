@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "786247387395",
-    "project_id": "data-base-pokefeet",
-    "storage_bucket": "data-base-pokefeet.appspot.com"
+    "project_number": "581216770207",
+    "project_id": "pokefeet-dd269",
+    "storage_bucket": "pokefeet-dd269.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:786247387395:android:f8cdbb5f60c3068cfe4136",
+        "mobilesdk_app_id": "1:581216770207:android:a07724c73524956fc1aaaa",
         "android_client_info": {
-          "package_name": "com.example.firebase"
+          "package_name": "com.reddefrijoles.pokefeet"
         }
       },
       "oauth_client": [
         {
-          "client_id": "786247387395-j9tm6gekcvr6122sk7b76q24m1ee8bsj.apps.googleusercontent.com",
+          "client_id": "581216770207-gudl97k55ubldsr7j0aqsannj39cagqs.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.firebase",
+            "package_name": "com.reddefrijoles.pokefeet",
             "certificate_hash": "9b2a656d92d9a1da91132325560c3fa452c884b8"
           }
         },
         {
-          "client_id": "786247387395-oq5f4l9f4m923alntqimr854h0244k9l.apps.googleusercontent.com",
+          "client_id": "581216770207-n490314g5fh8e4cg5b98jin9mq45v6h9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDq9asCWbB2queiGb4jA1vECiGnKz0cbxU"
+          "current_key": "AIzaSyB0HOfL8WdJee-0B6s7r1O4wWPsDuD8QXc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "786247387395-37td4l0m34rnjghghv9n5ui1dupctqao.apps.googleusercontent.com",
+              "client_id": "581216770207-cmkoi41a2dghqed2t5hbgjbdsb36iq0g.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -44,35 +44,35 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:786247387395:android:97a4e58266237dfffe4136",
+        "mobilesdk_app_id": "1:581216770207:android:a5f8a8f0b99fdbd5c1aaaa",
         "android_client_info": {
           "package_name": "com.reddefrijoles.pruebapokefeet"
         }
       },
       "oauth_client": [
         {
-          "client_id": "786247387395-0ba8l785dbkvpmkbf43rca2rpk9l1ma6.apps.googleusercontent.com",
+          "client_id": "581216770207-uth4hoefitdglen8hu9aqk4flklg7mbr.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.reddefrijoles.pruebapokefeet",
-            "certificate_hash": "f2483ab29b00f829cee04b4f178364a2fed1fe98"
+            "certificate_hash": "6150b5fd3f3a32de965941dd5a6fd807b4c7438d"
           }
         },
         {
-          "client_id": "786247387395-oq5f4l9f4m923alntqimr854h0244k9l.apps.googleusercontent.com",
+          "client_id": "581216770207-n490314g5fh8e4cg5b98jin9mq45v6h9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDq9asCWbB2queiGb4jA1vECiGnKz0cbxU"
+          "current_key": "AIzaSyB0HOfL8WdJee-0B6s7r1O4wWPsDuD8QXc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "786247387395-37td4l0m34rnjghghv9n5ui1dupctqao.apps.googleusercontent.com",
+              "client_id": "581216770207-cmkoi41a2dghqed2t5hbgjbdsb36iq0g.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

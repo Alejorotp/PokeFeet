@@ -2,6 +2,7 @@ package com.reddefrijoles.pruebapokefeet
 
 import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
@@ -17,16 +18,8 @@ class loading_page_activity : AppCompatActivity() {
         setContentView(R.layout.loading_page)
         logo_1 = findViewById<View>(R.id.logo_1) as ImageView
         loading___ = findViewById<View>(R.id.loading___) as TextView
-        val btt : Button = findViewById(R.id.button123)
-        btt.setOnClickListener {
-            // Cambiar a signup_Activity, solo esta en main menu para ahorrar tiempo en tests
-            //TODO cambiar a signup_activity y quitar el saveKeys(0)
-            //prefs.saveKeys(0)
-            val login = Intent(this, main_menu_activity::class.java)
-            startActivity(login)
+        Handler().postDelayed({
             finish()
-        }
-
-        //custom code goes here
+        }, 2000)
     }
 }

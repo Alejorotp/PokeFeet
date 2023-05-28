@@ -33,6 +33,7 @@
                 android:background="@drawable/rectangle_42_shape"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.504"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <ImageView
@@ -49,7 +50,7 @@
 
             <TextView
                 android:id="@+id/tvNombre"
-                android:layout_width="158dp"
+                android:layout_width="wrap_content"
                 android:layout_height="69dp"
                 android:layout_gravity="center_horizontal|center"
                 android:layout_marginBottom="116dp"
@@ -66,15 +67,15 @@
 
             <TextView
                 android:id="@+id/tvId"
-                android:layout_width="49dp"
-                android:layout_height="38dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center"
                 android:layout_marginBottom="52dp"
                 android:fontFamily="@font/ruda"
                 android:gravity="center"
                 android:text="007"
                 android:textColor="@color/squirtle_color"
-                android:textSize="20sp"
+                android:textSize="30sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="@+id/tvNombre"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -84,7 +85,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="131dp"
                 android:layout_height="35dp"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="24dp"
                 android:fontFamily="@font/ruda"
                 android:text="Descripcion:"
                 android:textColor="@color/squirtle_color"
@@ -97,7 +98,7 @@
 
             <TextView
                 android:id="@+id/tvDescripcion"
-                android:layout_width="278.5dp"
+                android:layout_width="250.5dp"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/ruda"
                 android:text="Este Pokemon nace con una semilla en el lomo, que brota con el paso del tiempo."
@@ -194,7 +195,7 @@
                 android:id="@+id/textView7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="15dp"
                 android:layout_marginTop="28dp"
                 android:fontFamily="@font/ruda"
                 android:text="Tipo:"
@@ -208,9 +209,10 @@
                 android:id="@+id/groupTipo1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="40dp"
                 app:layout_constraintBottom_toBottomOf="@+id/textView7"
-                app:layout_constraintStart_toEndOf="@+id/textView7">
+                app:layout_constraintStart_toEndOf="@+id/textView7"
+                app:layout_constraintTop_toTopOf="@+id/textView7">
 
                 <View
                     android:id="@+id/vTipo1"
@@ -248,7 +250,7 @@
                 android:id="@+id/groupTipo2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="40dp"
                 app:layout_constraintBottom_toBottomOf="@+id/textView7"
                 app:layout_constraintStart_toEndOf="@+id/groupTipo1">
 
@@ -284,15 +286,288 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+
             <View
+                android:id="@+id/view4"
                 android:layout_width="250dp"
                 android:layout_height="1dp"
-                android:layout_marginBottom="152dp"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/line_3_shape"
-                app:layout_constraintBottom_toBottomOf="@+id/view2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.496"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/groupTipo2" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/ruda"
+                android:text="Debilidades:"
+                android:textColor="@color/squirtle_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/view3"
+                app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/groupDebilidad1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView8"
+                app:layout_constraintStart_toEndOf="@+id/textView8"
+                app:layout_constraintTop_toTopOf="@+id/textView8">
+
+                <View
+                    android:id="@+id/vDebilidad1"
+                    android:layout_width="0dp"
+                    android:layout_height="22dp"
+                    android:background="@drawable/volador"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <TextView
+                    android:id="@+id/tvDebilidad1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/ruda"
+                    android:text="Volador"
+                    android:textAlignment="center"
+                    android:textColor="@color/agua_color"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/vDebilidad1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/vDebilidad1"
+                    app:layout_constraintTop_toTopOf="@+id/vDebilidad1" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/groupDebilidad2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="2dp"
+                app:layout_constraintStart_toStartOf="@+id/textView8"
+                app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+                <View
+                    android:id="@+id/vDebilidad2"
+                    android:layout_width="0dp"
+                    android:layout_height="22dp"
+                    android:background="@drawable/volador"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvDebilidad2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/ruda"
+                    android:text="Volador"
+                    android:textAlignment="center"
+                    android:textColor="@color/agua_color"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/vDebilidad2"
+                    app:layout_constraintStart_toStartOf="@+id/vDebilidad2"
+                    app:layout_constraintTop_toTopOf="@+id/vDebilidad2"
+                    app:layout_constraintBottom_toBottomOf="@+id/vDebilidad2"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/groupDebilidad3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                app:layout_constraintStart_toEndOf="@+id/groupDebilidad2"
+                app:layout_constraintTop_toTopOf="@+id/groupDebilidad2">
+
+                <View
+                    android:id="@+id/vDebilidad3"
+                    android:layout_width="0dp"
+                    android:layout_height="22dp"
+                    android:background="@drawable/volador"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvDebilidad3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/ruda"
+                    android:text="Volador"
+                    android:textAlignment="center"
+                    android:textColor="@color/agua_color"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/vDebilidad3"
+                    app:layout_constraintStart_toStartOf="@+id/vDebilidad3"
+                    app:layout_constraintTop_toTopOf="@+id/vDebilidad3"
+                    app:layout_constraintBottom_toBottomOf="@+id/vDebilidad3"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/groupDebilidad4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                app:layout_constraintStart_toEndOf="@+id/groupDebilidad3"
+                app:layout_constraintTop_toTopOf="@+id/groupDebilidad3">
+
+                <View
+                    android:id="@+id/vDebilidad4"
+                    android:layout_width="0dp"
+                    android:layout_height="22dp"
+                    android:background="@drawable/volador"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvDebilidad4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/ruda"
+                    android:text="Volador"
+                    android:textAlignment="center"
+                    android:textColor="@color/agua_color"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/vDebilidad4"
+                    app:layout_constraintStart_toStartOf="@+id/vDebilidad4"
+                    app:layout_constraintTop_toTopOf="@+id/vDebilidad4"
+                    app:layout_constraintBottom_toBottomOf="@+id/vDebilidad4"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/groupDebilidad5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="2dp"
+                app:layout_constraintStart_toStartOf="@+id/groupDebilidad2"
+                app:layout_constraintTop_toBottomOf="@+id/groupDebilidad2">
+
+                <View
+                    android:id="@+id/vDebilidad5"
+                    android:layout_width="0dp"
+                    android:layout_height="22dp"
+                    android:background="@drawable/volador"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvDebilidad5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/ruda"
+                    android:text="Volador"
+                    android:textAlignment="center"
+                    android:textColor="@color/agua_color"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/vDebilidad5"
+                    app:layout_constraintStart_toStartOf="@+id/vDebilidad5"
+                    app:layout_constraintTop_toTopOf="@+id/vDebilidad5"
+                    app:layout_constraintBottom_toBottomOf="@+id/vDebilidad5"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/groupDebilidad6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                app:layout_constraintStart_toEndOf="@+id/groupDebilidad5"
+                app:layout_constraintTop_toTopOf="@+id/groupDebilidad5">
+
+                <View
+                    android:id="@+id/vDebilidad6"
+                    android:layout_width="0dp"
+                    android:layout_height="22dp"
+                    android:background="@drawable/volador"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvDebilidad6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/ruda"
+                    android:text="Volador"
+                    android:textAlignment="center"
+                    android:textColor="@color/agua_color"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/vDebilidad6"
+                    app:layout_constraintStart_toStartOf="@+id/vDebilidad6"
+                    app:layout_constraintTop_toTopOf="@+id/vDebilidad6"
+                    app:layout_constraintBottom_toBottomOf="@+id/vDebilidad6"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/groupDebilidad7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                app:layout_constraintStart_toEndOf="@+id/groupDebilidad6"
+                app:layout_constraintTop_toTopOf="@+id/groupDebilidad6">
+
+                <View
+                    android:id="@+id/vDebilidad7"
+                    android:layout_width="0dp"
+                    android:layout_height="22dp"
+                    android:background="@drawable/volador"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvDebilidad7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/ruda"
+                    android:text="Volador"
+                    android:textAlignment="center"
+                    android:textColor="@color/agua_color"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/vDebilidad7"
+                    app:layout_constraintStart_toStartOf="@+id/vDebilidad7"
+                    app:layout_constraintTop_toTopOf="@+id/vDebilidad7"
+                    app:layout_constraintBottom_toBottomOf="@+id/vDebilidad7"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
             <!--
                 -->

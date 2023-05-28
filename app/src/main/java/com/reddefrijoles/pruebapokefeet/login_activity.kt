@@ -17,6 +17,7 @@ import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.os.Handler
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
@@ -25,6 +26,8 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
+import com.google.firebase.firestore.FirebaseFirestore
+import com.reddefrijoles.pruebapokefeet.UserApplication.Companion.prefs
 
 class login_activity : Activity() {
 
@@ -36,10 +39,14 @@ class login_activity : Activity() {
 
     private val GOOGLE_SIGN_IN =100
 
+    private val db = FirebaseFirestore.getInstance()
+
 
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.login)
+
+
         t_password = findViewById(R.id.etPasswordL)
         t_email = findViewById(R.id.etNombreL)
         olvidarCon= findViewById(R.id.btnOlvidarPassword)
@@ -55,9 +62,26 @@ class login_activity : Activity() {
             if(!email.isEmpty() && !password.isEmpty()){
                 FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password).addOnCompleteListener {
                     if (it.isSuccessful){
-                        Toast.makeText(this,"successfull login", Toast.LENGTH_SHORT).show()
-                        showHome(it.result?.user?.email ?:"", ProviderType.EMAIL)
-                    }else{
+                        prefs.saveEmail(email)
+                        prefs.saveUserName(email)
+                        var steps = 0
+                        var keys = 0
+                        var pokemons = ""
+                        db.collection("users").document(email).get().addOnSuccessListener {
+                            steps = it.get("steps").toString().toInt()
+                            prefs.saveSteps(steps)
+                            keys = it.get("keys").toString().toInt()
+                            prefs.saveKeys(keys)
+                            pokemons = it.get("pokemons").toString()
+                            prefs.savePokemonsDB(pokemons)
+                        }
+                        val loadingPage = Intent(this, loading_page_activity::class.java)
+                        startActivity(loadingPage)
+                        finish()
+                        Handler().postDelayed({
+                            showHome(email)
+                        }, 1500)
+                    } else {
                         showAlert()
                     }
                 }
@@ -88,7 +112,7 @@ class login_activity : Activity() {
                     FirebaseAuth.getInstance().signInWithCredential(credential).addOnCompleteListener {
                         if (it.isSuccessful){
                             Toast.makeText(this,"Sesion iniciada correctamente", Toast.LENGTH_SHORT).show()
-                            showHome(account.email ?:"", ProviderType.GOOGLE)
+                            showHome(account.email ?:"")
                         }else{
                             showAlert()
                         }
@@ -118,21 +142,14 @@ class login_activity : Activity() {
 
     // prefs to keep session open
     fun Session(){
-        val prefs = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE)
-        val email= prefs.getString("email", null)
-        val provider= prefs.getString("provider", null)
-
-        if(email !=null && provider !=null){
-            showHome(email, ProviderType.valueOf(provider))
+        val email: String? = prefs.getEmail()
+        if(email != "None"){
+            showHome(email)
         }
-
     }
 
-    fun showHome(email:String, provider: ProviderType){
-        val homeIntent= Intent(this,main_menu_activity::class.java).apply {
-            putExtra("email", email)
-            putExtra("provider", provider.name)
-        }
+    fun showHome(email:String?){
+        val homeIntent= Intent(this,main_menu_activity::class.java)
         startActivity(homeIntent)
         finish()
     }

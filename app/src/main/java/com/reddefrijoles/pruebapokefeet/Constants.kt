@@ -1796,8 +1796,6 @@ object Constants {
                 "Al nacer es un poco lento, pero va fortaleciendo las patas paulatinamente al disputar carreras con sus congéneres.",
                 "Agua",
                 R.drawable.agua,
-                "Planta",
-                R.drawable.planta,
                 "Roca",
                 R.drawable.roca,
                 "Tierra",
@@ -1821,8 +1819,6 @@ object Constants {
                 "Es capaz de correr a una velocidad de 240 km/h. La llama que tiene en la frente brilla con intensidad cuando corre.",
                 "Agua",
                 R.drawable.agua,
-                "Planta",
-                R.drawable.planta,
                 "Roca",
                 R.drawable.roca,
                 "Tierra",
@@ -3510,6 +3506,8 @@ object Constants {
                 R.drawable.siniestro,
             )
         )
+
+
         return Pokemons
     }
 }

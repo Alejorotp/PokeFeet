@@ -44,7 +44,7 @@
                 app:layout_constraintVertical_bias="0.023">
 
                 <View
-                    
+
                     android:layout_width="100dp"
                     android:layout_height="45dp"
                     android:layout_marginStart="0dp"
@@ -86,7 +86,7 @@
                     android:layout_marginTop="0dp">
 
                     <View
-                        
+
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -95,10 +95,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon1"
-                        android:layout_width="73dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="17dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -127,7 +126,7 @@
                     android:layout_marginTop="0dp">
 
                     <View
-                        
+
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -136,10 +135,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon2"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -166,7 +164,7 @@
                     android:layout_marginTop="0dp">
 
                     <View
-                        
+
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -175,10 +173,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon3"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -220,7 +217,7 @@
                     android:layout_marginTop="0dp">
 
                     <View
-                        
+
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -229,10 +226,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon4"
-                        android:layout_width="109dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="-1dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -261,7 +257,6 @@
                     android:layout_marginTop="0dp">
 
                     <View
-                        
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -270,10 +265,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon5"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -303,7 +297,7 @@
                     android:layout_marginTop="0dp">
 
                     <View
-                        
+
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -312,10 +306,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon6"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -356,7 +349,7 @@
                     android:layout_marginTop="0dp">
 
                     <View
-                        
+
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -366,10 +359,9 @@
                     <TextView
                         android:id="@+id/tvPokemon7"
 
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -397,7 +389,7 @@
                     android:layout_marginTop="0dp">
 
                     <View
-                        
+
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -406,10 +398,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon8"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -438,7 +429,7 @@
                     android:layout_marginTop="0dp">
 
                     <View
-                        
+
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -447,10 +438,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon9"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -510,13 +500,13 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon10"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
 
                     <View
-                        
+
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -525,10 +515,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon10"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -550,13 +539,13 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon11"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
 
                     <View
-                        
+
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -565,10 +554,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon11"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -591,13 +579,13 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon12"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
 
                     <View
-                        
+
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -606,10 +594,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon12"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -644,13 +631,13 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon13"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
 
                     <View
-                        
+
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -659,10 +646,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon13"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -677,7 +663,7 @@
                         android:layout_height="76.47dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="28dp"
-                        
+
                         android:src="@drawable/weedle_color"
                         android:tag="13"/>
 
@@ -685,13 +671,13 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon14"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
 
                     <View
-                        
+
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -700,10 +686,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon14"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -726,13 +711,13 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon15"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
 
                     <View
-                        
+
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -741,10 +726,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon15"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -778,13 +762,13 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon16"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
 
                     <View
-                        
+
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -793,10 +777,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon16"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -818,13 +801,13 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon17"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
 
                     <View
-                        
+
                         android:layout_width="100dp"
                         android:layout_height="83.33dp"
                         android:layout_marginStart="0dp"
@@ -833,10 +816,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon17"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -859,7 +841,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon18"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -873,10 +855,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon18"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -911,7 +892,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon19"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -925,11 +906,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon19"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Rattata"
@@ -943,7 +922,6 @@
                         android:layout_height="76.47dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="28dp"
-                        
                         android:src="@drawable/rattata_color"
                         android:tag="19"/>
 
@@ -951,7 +929,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon20"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -965,10 +943,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon20"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -991,7 +968,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon21"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -1005,10 +982,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon21"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -1029,7 +1005,7 @@
                 </RelativeLayout>
 
             </RelativeLayout>
-            
+
             <RelativeLayout
                 android:id="@+id/group_8"
                 android:layout_width="wrap_content"
@@ -1042,7 +1018,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon22"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -1056,11 +1032,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon22"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Fearow"
@@ -1074,7 +1048,6 @@
                         android:layout_height="76.47dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="28dp"
-                        
                         android:src="@drawable/fearow_color"
                         android:tag="22"/>
 
@@ -1082,7 +1055,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon23"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -1096,10 +1069,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon23"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -1122,7 +1094,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon24"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -1136,10 +1108,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon24"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -1173,7 +1144,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon25"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -1187,11 +1158,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon25"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -1205,7 +1174,7 @@
                         android:layout_height="76.47dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="28dp"
-                        
+
                         android:src="@drawable/pikachu_color"
                         android:tag="25"/>
 
@@ -1213,7 +1182,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon26"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -1227,11 +1196,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon26"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -1253,7 +1220,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon27"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -1267,11 +1234,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon27"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -1304,7 +1269,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon28"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -1318,10 +1283,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon28"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
@@ -1336,7 +1300,7 @@
                         android:layout_height="76.47dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="28dp"
-                        
+
                         android:src="@drawable/pikachu_color"
                         android:tag="28"/>
 
@@ -1344,7 +1308,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon29"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -1358,11 +1322,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon29"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -1384,7 +1346,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon30"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -1398,11 +1360,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon30"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -1436,7 +1396,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon31"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -1450,11 +1410,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon31"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -1468,7 +1426,7 @@
                         android:layout_height="76.47dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="28dp"
-                        
+
                         android:src="@drawable/pikachu_color"
                         android:tag="31"/>
 
@@ -1476,7 +1434,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon32"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -1490,11 +1448,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon32"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -1516,7 +1472,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon33"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -1530,11 +1486,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon33"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -1567,7 +1521,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon34"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -1581,11 +1535,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon34"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -1599,7 +1551,7 @@
                         android:layout_height="76.47dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="28dp"
-                        
+
                         android:src="@drawable/pikachu_color"
                         android:tag="34"/>
 
@@ -1607,7 +1559,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon35"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -1621,11 +1573,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon35"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -1647,7 +1597,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon36"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -1661,11 +1611,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon36"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -1698,7 +1646,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon37"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -1712,11 +1660,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon37"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -1730,7 +1676,7 @@
                         android:layout_height="76.47dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="28dp"
-                        
+
                         android:src="@drawable/pikachu_color"
                         android:tag="37"/>
 
@@ -1738,7 +1684,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon38"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -1752,11 +1698,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon38"
-                        android:layout_width="wrap_content"
-                        android:layout_height="30dp"
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -1778,7 +1722,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon39"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -1792,11 +1736,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon39"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -1829,7 +1771,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon40"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -1843,11 +1785,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon40"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -1861,7 +1801,7 @@
                         android:layout_height="76.47dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="28dp"
-                        
+
                         android:src="@drawable/pikachu_color"
                         android:tag="40" />
 
@@ -1869,7 +1809,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon41"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -1883,11 +1823,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon41"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -1909,7 +1847,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon42"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -1923,11 +1861,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon42"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -1960,7 +1896,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon43"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -1974,11 +1910,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon43"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -1992,7 +1926,7 @@
                         android:layout_height="76.47dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="28dp"
-                        
+
                         android:src="@drawable/pikachu_color"
                         android:tag="43"/>
 
@@ -2000,7 +1934,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon44"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -2014,11 +1948,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon44"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -2040,7 +1972,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon45"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -2054,11 +1986,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon45"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -2091,7 +2021,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon46"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -2105,11 +2035,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon46"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -2123,7 +2051,7 @@
                         android:layout_height="76.47dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="28dp"
-                        
+
                         android:src="@drawable/pikachu_color"
                         android:tag="46"/>
 
@@ -2131,7 +2059,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon47"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -2145,11 +2073,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon47"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -2171,7 +2097,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon48"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -2185,11 +2111,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon48"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -2222,7 +2146,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon49"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -2236,11 +2160,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon49"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -2254,7 +2176,7 @@
                         android:layout_height="76.47dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="28dp"
-                        
+
                         android:src="@drawable/pikachu_color"
                         android:tag="49"/>
 
@@ -2262,7 +2184,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon50"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -2276,11 +2198,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon50"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -2302,7 +2222,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon51"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -2316,11 +2236,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon51"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -2353,7 +2271,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon52"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -2367,11 +2285,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon52"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -2385,7 +2301,7 @@
                         android:layout_height="76.47dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="28dp"
-                        
+
                         android:src="@drawable/pikachu_color"
                         android:tag="52"/>
 
@@ -2393,7 +2309,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon53"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -2407,11 +2323,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon53"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -2433,7 +2347,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon54"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -2447,11 +2361,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon54"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -2484,7 +2396,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon55"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -2498,11 +2410,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon55"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -2516,7 +2426,7 @@
                         android:layout_height="76.47dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="28dp"
-                        
+
                         android:src="@drawable/pikachu_color"
                         android:tag="55"
                         />
@@ -2525,7 +2435,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon56"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -2539,11 +2449,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon56"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -2565,7 +2473,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon57"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -2579,11 +2487,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon57"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -2616,7 +2522,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon58"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -2630,11 +2536,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon58"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -2648,7 +2552,7 @@
                         android:layout_height="76.47dp"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="28dp"
-                        
+
                         android:src="@drawable/pikachu_color"
                         android:tag="58"/>
 
@@ -2656,7 +2560,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon59"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -2670,11 +2574,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon59"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -2696,7 +2598,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon60"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -2710,11 +2612,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon60"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -2746,7 +2646,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon61"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -2760,11 +2660,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon61"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -2786,7 +2684,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon62"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -2800,11 +2698,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon62"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -2826,7 +2722,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon63"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -2840,11 +2736,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon63"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -2876,7 +2770,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon64"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -2890,11 +2784,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon64"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -2916,7 +2808,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon65"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -2930,11 +2822,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon65"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -2956,7 +2846,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon66"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -2970,11 +2860,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon66"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -3007,7 +2895,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon67"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -3021,11 +2909,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon67"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -3047,7 +2933,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon68"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -3061,11 +2947,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon68"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -3087,7 +2971,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon69"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -3101,11 +2985,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon69"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -3137,7 +3019,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon70"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -3151,11 +3033,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon70"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -3177,7 +3057,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon71"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -3191,11 +3071,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon71"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -3217,7 +3095,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon72"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -3231,11 +3109,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon72"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -3267,7 +3143,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon73"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -3281,11 +3157,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon73"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -3307,7 +3181,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon74"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -3321,11 +3195,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon74"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -3347,7 +3219,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon75"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -3361,11 +3233,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon75"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -3397,7 +3267,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon76"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -3411,11 +3281,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon76"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -3437,7 +3305,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon77"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -3451,11 +3319,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon77"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -3477,7 +3343,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon78"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -3491,11 +3357,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon78"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -3528,7 +3392,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon79"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -3542,11 +3406,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon79"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -3568,7 +3430,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon80"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -3582,11 +3444,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon80"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -3608,7 +3468,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon81"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -3622,11 +3482,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon81"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -3658,7 +3516,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon82"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -3672,11 +3530,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon82"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -3698,7 +3554,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon83"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -3712,11 +3568,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon83"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -3738,7 +3592,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon84"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -3752,11 +3606,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon84"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -3788,7 +3640,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon85"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -3802,11 +3654,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon85"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -3828,7 +3678,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon86"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -3842,11 +3692,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon86"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -3868,7 +3716,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon87"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -3882,11 +3730,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon87"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -3918,7 +3764,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon88"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -3932,11 +3778,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon88"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -3958,7 +3802,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon89"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -3972,11 +3816,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon89"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -3998,7 +3840,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon90"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -4012,11 +3854,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon90"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -4048,7 +3888,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon91"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -4062,11 +3902,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon91"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -4088,7 +3926,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon92"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -4102,11 +3940,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon92"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -4128,7 +3964,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon93"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -4142,11 +3978,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon93"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -4179,7 +4013,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon94"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -4193,11 +4027,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon94"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -4219,7 +4051,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon95"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -4233,11 +4065,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon95"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -4259,7 +4089,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon96"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -4273,11 +4103,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon96"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -4309,7 +4137,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon97"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -4323,11 +4151,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon97"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -4349,7 +4175,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon98"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -4363,11 +4189,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon98"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -4389,7 +4213,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon99"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -4403,11 +4227,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon99"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -4440,7 +4262,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon100"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -4454,11 +4276,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon100"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -4480,7 +4300,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon101"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -4494,11 +4314,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon101"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -4520,7 +4338,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon102"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -4534,11 +4352,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon102"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -4570,7 +4386,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon103"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -4584,11 +4400,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon103"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -4610,7 +4424,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon104"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -4624,11 +4438,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon104"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -4650,7 +4462,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon105"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -4664,11 +4476,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon105"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -4700,7 +4510,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon106"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -4714,11 +4524,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon106"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -4740,7 +4548,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon107"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -4754,11 +4562,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon107"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -4780,7 +4586,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon108"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -4794,11 +4600,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon108"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -4830,7 +4634,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon109"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -4844,11 +4648,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon109"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -4870,7 +4672,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon110"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -4884,11 +4686,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon110"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -4910,7 +4710,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon111"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -4924,11 +4724,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon111"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -4960,7 +4758,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon112"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -4974,11 +4772,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon112"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -5000,7 +4796,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon113"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -5014,11 +4810,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon113"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -5040,7 +4834,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon114"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -5054,11 +4848,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon114"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -5090,7 +4882,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon115"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -5104,11 +4896,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon115"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -5130,7 +4920,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon116"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -5144,11 +4934,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon116"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -5170,7 +4958,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon117"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -5184,11 +4972,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon117"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Sandshrew"
@@ -5220,7 +5006,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon118"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -5234,11 +5020,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon118"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -5260,7 +5044,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon119"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -5274,11 +5058,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon119"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -5300,7 +5082,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon120"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -5314,11 +5096,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon120"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Kabutops"
@@ -5350,7 +5130,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon121"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -5364,11 +5144,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon121"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -5390,7 +5168,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon122"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -5404,11 +5182,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon122"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -5430,7 +5206,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon123"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -5444,11 +5220,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon123"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Kabutops"
@@ -5480,7 +5254,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon124"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -5494,11 +5268,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon124"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -5520,7 +5292,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon125"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -5534,11 +5306,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon125"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -5560,7 +5330,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon126"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -5574,11 +5344,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon126"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Kabutops"
@@ -5610,7 +5378,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon127"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -5624,11 +5392,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon127"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -5650,7 +5416,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon128"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -5664,11 +5430,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon128"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -5690,7 +5454,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon129"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -5704,11 +5468,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon129"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Kabutops"
@@ -5740,7 +5502,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon130"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -5754,11 +5516,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon130"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -5780,7 +5540,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon131"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -5794,11 +5554,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon131"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -5820,7 +5578,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon132"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -5834,11 +5592,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon132"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Kabutops"
@@ -5870,7 +5626,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon133"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -5884,11 +5640,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon133"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -5910,7 +5664,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon134"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -5924,11 +5678,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon134"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -5950,7 +5702,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon135"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -5964,11 +5716,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon135"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Kabutops"
@@ -6000,7 +5750,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon136"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -6014,11 +5764,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon136"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -6040,7 +5788,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon137"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -6054,11 +5802,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon137"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -6080,7 +5826,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon138"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -6094,11 +5840,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon138"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Kabutops"
@@ -6130,7 +5874,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon139"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -6144,11 +5888,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon139"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Pikachu"
@@ -6170,7 +5912,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon140"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -6184,11 +5926,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon140"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -6210,7 +5950,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon141"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -6224,11 +5964,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon141"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Kabutops"
@@ -6260,7 +5998,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon142"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -6274,11 +6012,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon142"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Snorlax"
@@ -6300,7 +6036,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon143"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -6314,11 +6050,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon143"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -6340,7 +6074,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon144"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -6354,11 +6088,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon144"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Kabutops"
@@ -6390,7 +6122,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon145"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -6404,11 +6136,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon145"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Articuno"
@@ -6430,7 +6160,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon146"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -6444,11 +6174,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon146"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -6470,7 +6198,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon147"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -6484,11 +6212,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon147"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Kabutops"
@@ -6520,7 +6246,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon148"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -6534,11 +6260,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon148"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Dragonair"
@@ -6560,7 +6284,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon149"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="110dp"
                     android:layout_marginTop="0dp">
@@ -6574,11 +6298,9 @@
 
                     <TextView
                         android:id ="@+id/tvPokemon149"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="35dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="@string/signos"
@@ -6600,7 +6322,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon150"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="220dp"
                     android:layout_marginTop="0dp">
@@ -6614,11 +6336,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon150"
-                        android:layout_width="wrap_content"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Mewtwo"
@@ -6650,7 +6370,7 @@
 
                 <RelativeLayout
                     android:id="@+id/groupPokemon151"
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="0dp"
                     android:layout_marginTop="0dp">
@@ -6664,11 +6384,9 @@
 
                     <TextView
                         android:id="@+id/tvPokemon151"
-                        android:layout_width="91dp"
+                        android:layout_width="100dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center_horizontal|center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="0dp"
                         android:fontFamily="@font/ruda"
                         android:gravity="center"
                         android:text="Mew"

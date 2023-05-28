@@ -24,8 +24,6 @@ class MainActivity : AppCompatActivity() {
         //val db = FirebaseFirestore.getInstance()
         setContentView(R.layout.activity_main)
 
-
-
         val text3: TextView = findViewById(R.id.tvTitulo)
         val text1: TextView = findViewById(R.id.tvRedFrijoles)
         val text2: TextView = findViewById(R.id.tvDe)
@@ -39,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         foto!!.animation = animacion1
         text3!!.animation = animacion1
         Handler().postDelayed({
-            val loadingPage = Intent(this, loading_page_activity::class.java)
+            val loadingPage = Intent(this, login_activity::class.java)
             startActivity(loadingPage)
             finish()
         }, 4000)

@@ -1,10 +1,7 @@
-<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:background="@color/Vino"
     >
-    <ScrollView android:id="@+id/shop"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" >
 
         <RelativeLayout android:id="@+id/content_container"
             android:layout_width="match_parent"
@@ -23,7 +20,7 @@
                 android:layout_height="61dp"
                 android:text="Tienda"
                 />
-
+            <!--
             <TextView android:id="@+id/gratis"
                 android:fontFamily="@font/ruda"
                 android:textStyle="bold"
@@ -35,7 +32,6 @@
                 android:layout_height="38dp"
                 android:text="Gratis"
                 />
-
             <ImageButton
                 android:id="@+id/frenesi"
                 android:layout_width="150dp"
@@ -44,23 +40,14 @@
                 android:layout_marginTop="190dp"
                 android:contentDescription="frenesi"
                 android:src="@drawable/image_7" />
-
-            <ImageButton
-                android:id="@+id/llaveButton"
-                android:layout_width="150dp"
-                android:layout_height="145dp"
-                android:layout_marginStart="210dp"
-                android:layout_marginTop="190dp"
-                android:contentDescription="image_8"
-                android:src="@drawable/image_8" />
-
+            -->
             <TextView android:id="@+id/cofres"
                 android:fontFamily="@font/ruda"
                 android:textStyle="bold"
                 android:textSize="20sp"
                 android:textColor="@color/beige"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="346dp"
+                android:layout_marginTop="165dp"
                 android:layout_width="86dp"
                 android:layout_height="38dp"
                 android:text="Cofres"
@@ -138,7 +125,7 @@
                 android:src="@drawable/image_2"
                 android:contentDescription="image_2"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="381dp"
+                android:layout_marginTop="351dp"
                 android:layout_width="153dp"
                 android:layout_height="100dp" />
 
@@ -147,7 +134,7 @@
                 android:layout_width="153dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="210dp"
-                android:layout_marginTop="381dp"
+                android:layout_marginTop="351dp"
                 android:contentDescription="image_3"
                 android:src="@drawable/image_3" />
 
@@ -156,7 +143,7 @@
                 android:src="@drawable/image_4"
                 android:contentDescription="image_4"
                 android:layout_marginStart="40dp"
-                android:layout_marginTop="493dp"
+                android:layout_marginTop="463dp"
                 android:layout_width="320dp"
                 android:layout_height="120dp" />
 
@@ -165,7 +152,7 @@
                 android:src="@drawable/image_6"
                 android:contentDescription="image_6"
                 android:layout_marginStart="210dp"
-                android:layout_marginTop="625dp"
+                android:layout_marginTop="595dp"
                 android:layout_width="153dp"
                 android:layout_height="100dp" />
 
@@ -174,11 +161,37 @@
                 android:src="@drawable/image_5"
                 android:contentDescription="image_5"
                 android:layout_marginStart="30dp"
-                android:layout_marginTop="625dp"
+                android:layout_marginTop="595dp"
+                android:layout_width="153dp"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:id="@+id/btn_comprar_cueva"
+                android:src="@drawable/image_cueva"
+                android:contentDescription="image_cueva"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="227dp"
+                android:layout_width="153dp"
+                android:layout_height="100dp" />
+
+            <ImageButton
+                android:id="@+id/btn_comprar_pradera"
+                android:src="@drawable/image_pradera"
+                android:contentDescription="image_pradera"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="227dp"
                 android:layout_width="153dp"
                 android:layout_height="100dp" />
 
         </RelativeLayout>
 
-    </ScrollView>
-</HorizontalScrollView>
+    <ImageView
+        android:id="@+id/iv_pokemon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="350dp"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="invisible" />
+</RelativeLayout>

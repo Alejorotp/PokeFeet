@@ -8,10 +8,6 @@
         android:name=".UserApplication"
         android:theme="@style/AppTheme"
         android:icon="@drawable/___charmander_1">
-        <service
-            android:name=".StepDetectorService"
-            android:enabled="true"
-            android:exported="false" />
         <activity
             android:name=".PokedexActivity"
             android:exported="false"

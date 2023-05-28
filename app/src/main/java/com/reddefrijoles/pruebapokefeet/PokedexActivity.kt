@@ -23,6 +23,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.res.ResourcesCompat
 import com.reddefrijoles.pruebapokefeet.UserApplication.Companion.prefs
 //import com.reddefrijoles.pruebapokefeet.databinding.ActivityMainBinding
 //import com.reddefrijoles.pruebapokefeet.databinding.PokedexBinding
@@ -827,7 +828,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon1.text = pokemon.nombre
                     } else {
                         ibPokemon1.setImageResource(pokemon.imagenBlack)
-                        tvPokemon1.text = ".???"
+                        tvPokemon1.text = "???"
                     }
                 }
 
@@ -837,7 +838,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon2.text = pokemon.nombre
                     } else {
                         ibPokemon2.setImageResource(pokemon.imagenBlack)
-                        tvPokemon2.text = ".???"
+                        tvPokemon2.text = "???"
                     }
                 }
 
@@ -847,7 +848,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon3.text = pokemon.nombre
                     } else {
                         ibPokemon3.setImageResource(pokemon.imagenBlack)
-                        tvPokemon3.text = ".???"
+                        tvPokemon3.text = "???"
                     }
                 }
 
@@ -857,7 +858,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon4.text = pokemon.nombre
                     } else {
                         ibPokemon4.setImageResource(pokemon.imagenBlack)
-                        tvPokemon4.text = ".???"
+                        tvPokemon4.text = "???"
                     }
                 }
 
@@ -867,7 +868,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon5.text = pokemon.nombre
                     } else {
                         ibPokemon5.setImageResource(pokemon.imagenBlack)
-                        tvPokemon5.text = ".???"
+                        tvPokemon5.text = "???"
                     }
                 }
 
@@ -877,7 +878,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon6.text = pokemon.nombre
                     } else {
                         ibPokemon6.setImageResource(pokemon.imagenBlack)
-                        tvPokemon6.text = ".???"
+                        tvPokemon6.text = "???"
                     }
                 }
 
@@ -887,7 +888,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon7.text = pokemon.nombre
                     } else {
                         ibPokemon7.setImageResource(pokemon.imagenBlack)
-                        tvPokemon7.text = ".???"
+                        tvPokemon7.text = "???"
                     }
                 }
 
@@ -897,7 +898,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon8.text = pokemon.nombre
                     } else {
                         ibPokemon8.setImageResource(pokemon.imagenBlack)
-                        tvPokemon8.text = ".???"
+                        tvPokemon8.text = "???"
                     }
                 }
 
@@ -907,7 +908,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon9.text = pokemon.nombre
                     } else {
                         ibPokemon9.setImageResource(pokemon.imagenBlack)
-                        tvPokemon9.text = ".???"
+                        tvPokemon9.text = "???"
                     }
                 }
 
@@ -917,7 +918,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon10.text = pokemon.nombre
                     } else {
                         ibPokemon10.setImageResource(pokemon.imagenBlack)
-                        tvPokemon10.text = ".???"
+                        tvPokemon10.text = "???"
                     }
                 }
 
@@ -927,7 +928,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon11.text = pokemon.nombre
                     } else {
                         ibPokemon11.setImageResource(pokemon.imagenBlack)
-                        tvPokemon11.text = ".???"
+                        tvPokemon11.text = "???"
                     }
                 }
 
@@ -937,7 +938,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon12.text = pokemon.nombre
                     } else {
                         ibPokemon12.setImageResource(pokemon.imagenBlack)
-                        tvPokemon12.text = ".???"
+                        tvPokemon12.text = "???"
                     }
                 }
 
@@ -947,7 +948,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon13.text = pokemon.nombre
                     } else {
                         ibPokemon13.setImageResource(pokemon.imagenBlack)
-                        tvPokemon13.text = ".???"
+                        tvPokemon13.text = "???"
                     }
                 }
 
@@ -957,7 +958,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon14.text = pokemon.nombre
                     } else {
                         ibPokemon14.setImageResource(pokemon.imagenBlack)
-                        tvPokemon14.text = ".???"
+                        tvPokemon14.text = "???"
                     }
                 }
 
@@ -967,7 +968,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon15.text = pokemon.nombre
                     } else {
                         ibPokemon15.setImageResource(pokemon.imagenBlack)
-                        tvPokemon15.text = ".???"
+                        tvPokemon15.text = "???"
                     }
                 }
 
@@ -977,7 +978,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon16.text = pokemon.nombre
                     } else {
                         ibPokemon16.setImageResource(pokemon.imagenBlack)
-                        tvPokemon16.text = ".???"
+                        tvPokemon16.text = "???"
                     }
                 }
 
@@ -987,7 +988,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon17.text = pokemon.nombre
                     } else {
                         ibPokemon17.setImageResource(pokemon.imagenBlack)
-                        tvPokemon17.text = ".???"
+                        tvPokemon17.text = "???"
                     }
                 }
 
@@ -997,7 +998,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon18.text = pokemon.nombre
                     } else {
                         ibPokemon18.setImageResource(pokemon.imagenBlack)
-                        tvPokemon18.text = ".???"
+                        tvPokemon18.text = "???"
                     }
                 }
 
@@ -1007,7 +1008,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon19.text = pokemon.nombre
                     } else {
                         ibPokemon19.setImageResource(pokemon.imagenBlack)
-                        tvPokemon19.text = ".???"
+                        tvPokemon19.text = "???"
                     }
                 }
 
@@ -1017,7 +1018,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon20.text = pokemon.nombre
                     } else {
                         ibPokemon20.setImageResource(pokemon.imagenBlack)
-                        tvPokemon20.text = ".???"
+                        tvPokemon20.text = "???"
                     }
                 }
 
@@ -1027,7 +1028,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon21.text = pokemon.nombre
                     } else {
                         ibPokemon21.setImageResource(pokemon.imagenBlack)
-                        tvPokemon21.text = ".???"
+                        tvPokemon21.text = "???"
                     }
                 }
 
@@ -1037,7 +1038,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon22.text = pokemon.nombre
                     } else {
                         ibPokemon22.setImageResource(pokemon.imagenBlack)
-                        tvPokemon22.text = ".???"
+                        tvPokemon22.text = "???"
                     }
                 }
 
@@ -1047,7 +1048,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon23.text = pokemon.nombre
                     } else {
                         ibPokemon23.setImageResource(pokemon.imagenBlack)
-                        tvPokemon23.text = ".???"
+                        tvPokemon23.text = "???"
                     }
                 }
 
@@ -1057,7 +1058,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon24.text = pokemon.nombre
                     } else {
                         ibPokemon24.setImageResource(pokemon.imagenBlack)
-                        tvPokemon24.text = ".???"
+                        tvPokemon24.text = "???"
                     }
                 }
 
@@ -1067,7 +1068,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon25.text = pokemon.nombre
                     } else {
                         ibPokemon25.setImageResource(pokemon.imagenBlack)
-                        tvPokemon25.text = ".???"
+                        tvPokemon25.text = "???"
                     }
                 }
 
@@ -1077,7 +1078,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon26.text = pokemon.nombre
                     } else {
                         ibPokemon26.setImageResource(pokemon.imagenBlack)
-                        tvPokemon26.text = ".???"
+                        tvPokemon26.text = "???"
                     }
                 }
 
@@ -1087,7 +1088,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon27.text = pokemon.nombre
                     } else {
                         ibPokemon27.setImageResource(pokemon.imagenBlack)
-                        tvPokemon27.text = ".???"
+                        tvPokemon27.text = "???"
                     }
                 }
 
@@ -1097,7 +1098,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon28.text = pokemon.nombre
                     } else {
                         ibPokemon28.setImageResource(pokemon.imagenBlack)
-                        tvPokemon28.text = ".???"
+                        tvPokemon28.text = "???"
                     }
                 }
 
@@ -1107,7 +1108,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon29.text = pokemon.nombre
                     } else {
                         ibPokemon29.setImageResource(pokemon.imagenBlack)
-                        tvPokemon29.text = ".???"
+                        tvPokemon29.text = "???"
                     }
                 }
 
@@ -1117,7 +1118,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon30.text = pokemon.nombre
                     } else {
                         ibPokemon30.setImageResource(pokemon.imagenBlack)
-                        tvPokemon30.text = ".???"
+                        tvPokemon30.text = "???"
                     }
                 }
 
@@ -1127,7 +1128,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon31.text = pokemon.nombre
                     } else {
                         ibPokemon31.setImageResource(pokemon.imagenBlack)
-                        tvPokemon31.text = ".???"
+                        tvPokemon31.text = "???"
                     }
                 }
 
@@ -1137,7 +1138,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon32.text = pokemon.nombre
                     } else {
                         ibPokemon32.setImageResource(pokemon.imagenBlack)
-                        tvPokemon32.text = ".???"
+                        tvPokemon32.text = "???"
                     }
                 }
 
@@ -1147,7 +1148,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon33.text = pokemon.nombre
                     } else {
                         ibPokemon33.setImageResource(pokemon.imagenBlack)
-                        tvPokemon33.text = ".???"
+                        tvPokemon33.text = "???"
                     }
                 }
 
@@ -1157,7 +1158,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon34.text = pokemon.nombre
                     } else {
                         ibPokemon34.setImageResource(pokemon.imagenBlack)
-                        tvPokemon34.text = ".???"
+                        tvPokemon34.text = "???"
                     }
                 }
 
@@ -1167,7 +1168,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon35.text = pokemon.nombre
                     } else {
                         ibPokemon35.setImageResource(pokemon.imagenBlack)
-                        tvPokemon35.text = ".???"
+                        tvPokemon35.text = "???"
                     }
                 }
 
@@ -1177,7 +1178,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon36.text = pokemon.nombre
                     } else {
                         ibPokemon36.setImageResource(pokemon.imagenBlack)
-                        tvPokemon36.text = ".???"
+                        tvPokemon36.text = "???"
                     }
                 }
 
@@ -1187,7 +1188,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon37.text = pokemon.nombre
                     } else {
                         ibPokemon37.setImageResource(pokemon.imagenBlack)
-                        tvPokemon37.text = ".???"
+                        tvPokemon37.text = "???"
                     }
                 }
 
@@ -1197,7 +1198,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon38.text = pokemon.nombre
                     } else {
                         ibPokemon38.setImageResource(pokemon.imagenBlack)
-                        tvPokemon38.text = ".???"
+                        tvPokemon38.text = "???"
                     }
                 }
 
@@ -1207,7 +1208,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon39.text = pokemon.nombre
                     } else {
                         ibPokemon39.setImageResource(pokemon.imagenBlack)
-                        tvPokemon39.text = ".???"
+                        tvPokemon39.text = "???"
                     }
                 }
 
@@ -1217,7 +1218,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon40.text = pokemon.nombre
                     } else {
                         ibPokemon40.setImageResource(pokemon.imagenBlack)
-                        tvPokemon40.text = ".???"
+                        tvPokemon40.text = "???"
                     }
                 }
 
@@ -1227,7 +1228,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon41.text = pokemon.nombre
                     } else {
                         ibPokemon41.setImageResource(pokemon.imagenBlack)
-                        tvPokemon41.text = ".???"
+                        tvPokemon41.text = "???"
                     }
                 }
 
@@ -1237,7 +1238,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon42.text = pokemon.nombre
                     } else {
                         ibPokemon42.setImageResource(pokemon.imagenBlack)
-                        tvPokemon42.text = ".???"
+                        tvPokemon42.text = "???"
                     }
                 }
 
@@ -1247,7 +1248,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon43.text = pokemon.nombre
                     } else {
                         ibPokemon43.setImageResource(pokemon.imagenBlack)
-                        tvPokemon43.text = ".???"
+                        tvPokemon43.text = "???"
                     }
                 }
 
@@ -1257,7 +1258,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon44.text = pokemon.nombre
                     } else {
                         ibPokemon44.setImageResource(pokemon.imagenBlack)
-                        tvPokemon44.text = ".???"
+                        tvPokemon44.text = "???"
                     }
                 }
 
@@ -1267,7 +1268,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon45.text = pokemon.nombre
                     } else {
                         ibPokemon45.setImageResource(pokemon.imagenBlack)
-                        tvPokemon45.text = ".???"
+                        tvPokemon45.text = "???"
                     }
                 }
 
@@ -1277,7 +1278,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon46.text = pokemon.nombre
                     } else {
                         ibPokemon46.setImageResource(pokemon.imagenBlack)
-                        tvPokemon46.text = ".???"
+                        tvPokemon46.text = "???"
                     }
                 }
 
@@ -1287,7 +1288,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon47.text = pokemon.nombre
                     } else {
                         ibPokemon47.setImageResource(pokemon.imagenBlack)
-                        tvPokemon47.text = ".???"
+                        tvPokemon47.text = "???"
                     }
                 }
 
@@ -1297,7 +1298,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon48.text = pokemon.nombre
                     } else {
                         ibPokemon48.setImageResource(pokemon.imagenBlack)
-                        tvPokemon48.text = ".???"
+                        tvPokemon48.text = "???"
                     }
                 }
 
@@ -1307,7 +1308,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon49.text = pokemon.nombre
                     } else {
                         ibPokemon49.setImageResource(pokemon.imagenBlack)
-                        tvPokemon49.text = ".???"
+                        tvPokemon49.text = "???"
                     }
                 }
 
@@ -1317,7 +1318,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon50.text = pokemon.nombre
                     } else {
                         ibPokemon50.setImageResource(pokemon.imagenBlack)
-                        tvPokemon50.text = ".???"
+                        tvPokemon50.text = "???"
                     }
                 }
 
@@ -1327,7 +1328,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon51.text = pokemon.nombre
                     } else {
                         ibPokemon51.setImageResource(pokemon.imagenBlack)
-                        tvPokemon51.text = ".???"
+                        tvPokemon51.text = "???"
                     }
                 }
 
@@ -1337,7 +1338,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon52.text = pokemon.nombre
                     } else {
                         ibPokemon52.setImageResource(pokemon.imagenBlack)
-                        tvPokemon52.text = ".???"
+                        tvPokemon52.text = "???"
                     }
                 }
 
@@ -1347,7 +1348,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon53.text = pokemon.nombre
                     } else {
                         ibPokemon53.setImageResource(pokemon.imagenBlack)
-                        tvPokemon53.text = ".???"
+                        tvPokemon53.text = "???"
                     }
                 }
 
@@ -1357,7 +1358,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon54.text = pokemon.nombre
                     } else {
                         ibPokemon54.setImageResource(pokemon.imagenBlack)
-                        tvPokemon54.text = ".???"
+                        tvPokemon54.text = "???"
                     }
                 }
 
@@ -1367,7 +1368,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon55.text = pokemon.nombre
                     } else {
                         ibPokemon55.setImageResource(pokemon.imagenBlack)
-                        tvPokemon55.text = ".???"
+                        tvPokemon55.text = "???"
                     }
                 }
 
@@ -1377,7 +1378,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon56.text = pokemon.nombre
                     } else {
                         ibPokemon56.setImageResource(pokemon.imagenBlack)
-                        tvPokemon56.text = ".???"
+                        tvPokemon56.text = "???"
                     }
                 }
 
@@ -1387,7 +1388,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon57.text = pokemon.nombre
                     } else {
                         ibPokemon57.setImageResource(pokemon.imagenBlack)
-                        tvPokemon57.text = ".???"
+                        tvPokemon57.text = "???"
                     }
                 }
 
@@ -1397,7 +1398,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon58.text = pokemon.nombre
                     } else {
                         ibPokemon58.setImageResource(pokemon.imagenBlack)
-                        tvPokemon58.text = ".???"
+                        tvPokemon58.text = "???"
                     }
                 }
 
@@ -1407,7 +1408,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon59.text = pokemon.nombre
                     } else {
                         ibPokemon59.setImageResource(pokemon.imagenBlack)
-                        tvPokemon59.text = ".???"
+                        tvPokemon59.text = "???"
                     }
                 }
 
@@ -1417,7 +1418,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon60.text = pokemon.nombre
                     } else {
                         ibPokemon60.setImageResource(pokemon.imagenBlack)
-                        tvPokemon60.text = ".???"
+                        tvPokemon60.text = "???"
                     }
                 }
 
@@ -1427,7 +1428,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon61.text = pokemon.nombre
                     } else {
                         ibPokemon61.setImageResource(pokemon.imagenBlack)
-                        tvPokemon61.text = ".???"
+                        tvPokemon61.text = "???"
                     }
                 }
 
@@ -1437,7 +1438,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon62.text = pokemon.nombre
                     } else {
                         ibPokemon62.setImageResource(pokemon.imagenBlack)
-                        tvPokemon62.text = ".???"
+                        tvPokemon62.text = "???"
                     }
                 }
 
@@ -1447,7 +1448,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon63.text = pokemon.nombre
                     } else {
                         ibPokemon63.setImageResource(pokemon.imagenBlack)
-                        tvPokemon63.text = ".???"
+                        tvPokemon63.text = "???"
                     }
                 }
 
@@ -1457,7 +1458,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon64.text = pokemon.nombre
                     } else {
                         ibPokemon64.setImageResource(pokemon.imagenBlack)
-                        tvPokemon64.text = ".???"
+                        tvPokemon64.text = "???"
                     }
                 }
 
@@ -1467,7 +1468,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon65.text = pokemon.nombre
                     } else {
                         ibPokemon65.setImageResource(pokemon.imagenBlack)
-                        tvPokemon65.text = ".???"
+                        tvPokemon65.text = "???"
                     }
                 }
 
@@ -1477,7 +1478,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon66.text = pokemon.nombre
                     } else {
                         ibPokemon66.setImageResource(pokemon.imagenBlack)
-                        tvPokemon66.text = ".???"
+                        tvPokemon66.text = "???"
                     }
                 }
 
@@ -1487,7 +1488,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon67.text = pokemon.nombre
                     } else {
                         ibPokemon67.setImageResource(pokemon.imagenBlack)
-                        tvPokemon67.text = ".???"
+                        tvPokemon67.text = "???"
                     }
                 }
 
@@ -1497,7 +1498,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon68.text = pokemon.nombre
                     } else {
                         ibPokemon68.setImageResource(pokemon.imagenBlack)
-                        tvPokemon68.text = ".???"
+                        tvPokemon68.text = "???"
                     }
                 }
 
@@ -1507,7 +1508,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon69.text = pokemon.nombre
                     } else {
                         ibPokemon69.setImageResource(pokemon.imagenBlack)
-                        tvPokemon69.text = ".???"
+                        tvPokemon69.text = "???"
                     }
                 }
 
@@ -1517,7 +1518,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon70.text = pokemon.nombre
                     } else {
                         ibPokemon70.setImageResource(pokemon.imagenBlack)
-                        tvPokemon70.text = ".???"
+                        tvPokemon70.text = "???"
                     }
                 }
 
@@ -1527,7 +1528,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon71.text = pokemon.nombre
                     } else {
                         ibPokemon71.setImageResource(pokemon.imagenBlack)
-                        tvPokemon71.text = ".???"
+                        tvPokemon71.text = "???"
                     }
                 }
 
@@ -1537,7 +1538,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon72.text = pokemon.nombre
                     } else {
                         ibPokemon72.setImageResource(pokemon.imagenBlack)
-                        tvPokemon72.text = ".???"
+                        tvPokemon72.text = "???"
                     }
                 }
 
@@ -1547,7 +1548,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon73.text = pokemon.nombre
                     } else {
                         ibPokemon73.setImageResource(pokemon.imagenBlack)
-                        tvPokemon73.text = ".???"
+                        tvPokemon73.text = "???"
                     }
                 }
 
@@ -1557,7 +1558,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon74.text = pokemon.nombre
                     } else {
                         ibPokemon74.setImageResource(pokemon.imagenBlack)
-                        tvPokemon74.text = ".???"
+                        tvPokemon74.text = "???"
                     }
                 }
 
@@ -1567,7 +1568,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon75.text = pokemon.nombre
                     } else {
                         ibPokemon75.setImageResource(pokemon.imagenBlack)
-                        tvPokemon75.text = ".???"
+                        tvPokemon75.text = "???"
                     }
                 }
 
@@ -1577,7 +1578,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon76.text = pokemon.nombre
                     } else {
                         ibPokemon76.setImageResource(pokemon.imagenBlack)
-                        tvPokemon76.text = ".???"
+                        tvPokemon76.text = "???"
                     }
                 }
 
@@ -1587,7 +1588,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon77.text = pokemon.nombre
                     } else {
                         ibPokemon77.setImageResource(pokemon.imagenBlack)
-                        tvPokemon77.text = ".???"
+                        tvPokemon77.text = "???"
                     }
                 }
 
@@ -1597,7 +1598,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon78.text = pokemon.nombre
                     } else {
                         ibPokemon78.setImageResource(pokemon.imagenBlack)
-                        tvPokemon78.text = ".???"
+                        tvPokemon78.text = "???"
                     }
                 }
 
@@ -1607,7 +1608,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon79.text = pokemon.nombre
                     } else {
                         ibPokemon79.setImageResource(pokemon.imagenBlack)
-                        tvPokemon79.text = ".???"
+                        tvPokemon79.text = "???"
                     }
                 }
 
@@ -1617,7 +1618,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon80.text = pokemon.nombre
                     } else {
                         ibPokemon80.setImageResource(pokemon.imagenBlack)
-                        tvPokemon80.text = ".???"
+                        tvPokemon80.text = "???"
                     }
                 }
 
@@ -1627,7 +1628,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon81.text = pokemon.nombre
                     } else {
                         ibPokemon81.setImageResource(pokemon.imagenBlack)
-                        tvPokemon81.text = ".???"
+                        tvPokemon81.text = "???"
                     }
                 }
 
@@ -1637,7 +1638,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon82.text = pokemon.nombre
                     } else {
                         ibPokemon82.setImageResource(pokemon.imagenBlack)
-                        tvPokemon82.text = ".???"
+                        tvPokemon82.text = "???"
                     }
                 }
 
@@ -1647,7 +1648,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon83.text = pokemon.nombre
                     } else {
                         ibPokemon83.setImageResource(pokemon.imagenBlack)
-                        tvPokemon83.text = ".???"
+                        tvPokemon83.text = "???"
                     }
                 }
 
@@ -1657,7 +1658,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon84.text = pokemon.nombre
                     } else {
                         ibPokemon84.setImageResource(pokemon.imagenBlack)
-                        tvPokemon84.text = ".???"
+                        tvPokemon84.text = "???"
                     }
                 }
 
@@ -1667,7 +1668,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon85.text = pokemon.nombre
                     } else {
                         ibPokemon85.setImageResource(pokemon.imagenBlack)
-                        tvPokemon85.text = ".???"
+                        tvPokemon85.text = "???"
                     }
                 }
 
@@ -1677,7 +1678,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon86.text = pokemon.nombre
                     } else {
                         ibPokemon86.setImageResource(pokemon.imagenBlack)
-                        tvPokemon86.text = ".???"
+                        tvPokemon86.text = "???"
                     }
                 }
 
@@ -1687,7 +1688,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon87.text = pokemon.nombre
                     } else {
                         ibPokemon87.setImageResource(pokemon.imagenBlack)
-                        tvPokemon87.text = ".???"
+                        tvPokemon87.text = "???"
                     }
                 }
 
@@ -1697,7 +1698,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon88.text = pokemon.nombre
                     } else {
                         ibPokemon88.setImageResource(pokemon.imagenBlack)
-                        tvPokemon88.text = ".???"
+                        tvPokemon88.text = "???"
                     }
                 }
 
@@ -1707,7 +1708,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon89.text = pokemon.nombre
                     } else {
                         ibPokemon89.setImageResource(pokemon.imagenBlack)
-                        tvPokemon89.text = ".???"
+                        tvPokemon89.text = "???"
                     }
                 }
 
@@ -1717,7 +1718,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon90.text = pokemon.nombre
                     } else {
                         ibPokemon90.setImageResource(pokemon.imagenBlack)
-                        tvPokemon90.text = ".???"
+                        tvPokemon90.text = "???"
                     }
                 }
 
@@ -1727,7 +1728,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon91.text = pokemon.nombre
                     } else {
                         ibPokemon91.setImageResource(pokemon.imagenBlack)
-                        tvPokemon91.text = ".???"
+                        tvPokemon91.text = "???"
                     }
                 }
 
@@ -1737,7 +1738,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon92.text = pokemon.nombre
                     } else {
                         ibPokemon92.setImageResource(pokemon.imagenBlack)
-                        tvPokemon92.text = ".???"
+                        tvPokemon92.text = "???"
                     }
                 }
 
@@ -1747,7 +1748,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon93.text = pokemon.nombre
                     } else {
                         ibPokemon93.setImageResource(pokemon.imagenBlack)
-                        tvPokemon93.text = ".???"
+                        tvPokemon93.text = "???"
                     }
                 }
 
@@ -1757,7 +1758,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon94.text = pokemon.nombre
                     } else {
                         ibPokemon94.setImageResource(pokemon.imagenBlack)
-                        tvPokemon94.text = ".???"
+                        tvPokemon94.text = "???"
                     }
                 }
 
@@ -1767,7 +1768,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon95.text = pokemon.nombre
                     } else {
                         ibPokemon95.setImageResource(pokemon.imagenBlack)
-                        tvPokemon95.text = ".???"
+                        tvPokemon95.text = "???"
                     }
                 }
 
@@ -1777,7 +1778,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon96.text = pokemon.nombre
                     } else {
                         ibPokemon96.setImageResource(pokemon.imagenBlack)
-                        tvPokemon96.text = ".???"
+                        tvPokemon96.text = "???"
                     }
                 }
 
@@ -1787,7 +1788,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon97.text = pokemon.nombre
                     } else {
                         ibPokemon97.setImageResource(pokemon.imagenBlack)
-                        tvPokemon97.text = ".???"
+                        tvPokemon97.text = "???"
                     }
                 }
 
@@ -1797,7 +1798,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon98.text = pokemon.nombre
                     } else {
                         ibPokemon98.setImageResource(pokemon.imagenBlack)
-                        tvPokemon98.text = ".???"
+                        tvPokemon98.text = "???"
                     }
                 }
 
@@ -1807,7 +1808,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon99.text = pokemon.nombre
                     } else {
                         ibPokemon99.setImageResource(pokemon.imagenBlack)
-                        tvPokemon99.text = ".???"
+                        tvPokemon99.text = "???"
                     }
                 }
 
@@ -1817,7 +1818,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon100.text = pokemon.nombre
                     } else {
                         ibPokemon100.setImageResource(pokemon.imagenBlack)
-                        tvPokemon100.text = ".???"
+                        tvPokemon100.text = "???"
                     }
                 }
 
@@ -1827,7 +1828,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon101.text = pokemon.nombre
                     } else {
                         ibPokemon101.setImageResource(pokemon.imagenBlack)
-                        tvPokemon101.text = ".???"
+                        tvPokemon101.text = "???"
                     }
                 }
 
@@ -1837,7 +1838,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon102.text = pokemon.nombre
                     } else {
                         ibPokemon102.setImageResource(pokemon.imagenBlack)
-                        tvPokemon102.text = ".???"
+                        tvPokemon102.text = "???"
                     }
                 }
 
@@ -1847,7 +1848,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon103.text = pokemon.nombre
                     } else {
                         ibPokemon103.setImageResource(pokemon.imagenBlack)
-                        tvPokemon103.text = ".???"
+                        tvPokemon103.text = "???"
                     }
                 }
 
@@ -1857,7 +1858,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon104.text = pokemon.nombre
                     } else {
                         ibPokemon104.setImageResource(pokemon.imagenBlack)
-                        tvPokemon104.text = ".???"
+                        tvPokemon104.text = "???"
                     }
                 }
 
@@ -1867,7 +1868,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon105.text = pokemon.nombre
                     } else {
                         ibPokemon105.setImageResource(pokemon.imagenBlack)
-                        tvPokemon105.text = ".???"
+                        tvPokemon105.text = "???"
                     }
                 }
 
@@ -1877,7 +1878,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon106.text = pokemon.nombre
                     } else {
                         ibPokemon106.setImageResource(pokemon.imagenBlack)
-                        tvPokemon106.text = ".???"
+                        tvPokemon106.text = "???"
                     }
                 }
 
@@ -1887,7 +1888,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon107.text = pokemon.nombre
                     } else {
                         ibPokemon107.setImageResource(pokemon.imagenBlack)
-                        tvPokemon107.text = ".???"
+                        tvPokemon107.text = "???"
                     }
                 }
 
@@ -1897,7 +1898,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon108.text = pokemon.nombre
                     } else {
                         ibPokemon108.setImageResource(pokemon.imagenBlack)
-                        tvPokemon108.text = ".???"
+                        tvPokemon108.text = "???"
                     }
                 }
 
@@ -1907,7 +1908,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon109.text = pokemon.nombre
                     } else {
                         ibPokemon109.setImageResource(pokemon.imagenBlack)
-                        tvPokemon109.text = ".???"
+                        tvPokemon109.text = "???"
                     }
                 }
 
@@ -1917,7 +1918,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon110.text = pokemon.nombre
                     } else {
                         ibPokemon110.setImageResource(pokemon.imagenBlack)
-                        tvPokemon110.text = ".???"
+                        tvPokemon110.text = "???"
                     }
                 }
 
@@ -1927,7 +1928,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon111.text = pokemon.nombre
                     } else {
                         ibPokemon111.setImageResource(pokemon.imagenBlack)
-                        tvPokemon111.text = ".???"
+                        tvPokemon111.text = "???"
                     }
                 }
 
@@ -1937,7 +1938,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon112.text = pokemon.nombre
                     } else {
                         ibPokemon112.setImageResource(pokemon.imagenBlack)
-                        tvPokemon112.text = ".???"
+                        tvPokemon112.text = "???"
                     }
                 }
 
@@ -1947,7 +1948,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon113.text = pokemon.nombre
                     } else {
                         ibPokemon113.setImageResource(pokemon.imagenBlack)
-                        tvPokemon113.text = ".???"
+                        tvPokemon113.text = "???"
                     }
                 }
 
@@ -1957,7 +1958,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon114.text = pokemon.nombre
                     } else {
                         ibPokemon114.setImageResource(pokemon.imagenBlack)
-                        tvPokemon114.text = ".???"
+                        tvPokemon114.text = "???"
                     }
                 }
 
@@ -1967,7 +1968,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon115.text = pokemon.nombre
                     } else {
                         ibPokemon115.setImageResource(pokemon.imagenBlack)
-                        tvPokemon115.text = ".???"
+                        tvPokemon115.text = "???"
                     }
                 }
 
@@ -1977,7 +1978,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon116.text = pokemon.nombre
                     } else {
                         ibPokemon116.setImageResource(pokemon.imagenBlack)
-                        tvPokemon116.text = ".???"
+                        tvPokemon116.text = "???"
                     }
                 }
 
@@ -1987,7 +1988,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon117.text = pokemon.nombre
                     } else {
                         ibPokemon117.setImageResource(pokemon.imagenBlack)
-                        tvPokemon117.text = ".???"
+                        tvPokemon117.text = "???"
                     }
                 }
 
@@ -1997,7 +1998,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon118.text = pokemon.nombre
                     } else {
                         ibPokemon118.setImageResource(pokemon.imagenBlack)
-                        tvPokemon118.text = ".???"
+                        tvPokemon118.text = "???"
                     }
                 }
 
@@ -2007,7 +2008,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon119.text = pokemon.nombre
                     } else {
                         ibPokemon119.setImageResource(pokemon.imagenBlack)
-                        tvPokemon119.text = ".???"
+                        tvPokemon119.text = "???"
                     }
                 }
 
@@ -2017,7 +2018,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon120.text = pokemon.nombre
                     } else {
                         ibPokemon120.setImageResource(pokemon.imagenBlack)
-                        tvPokemon120.text = ".???"
+                        tvPokemon120.text = "???"
                     }
                 }
 
@@ -2027,7 +2028,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon121.text = pokemon.nombre
                     } else {
                         ibPokemon121.setImageResource(pokemon.imagenBlack)
-                        tvPokemon121.text = ".???"
+                        tvPokemon121.text = "???"
                     }
                 }
 
@@ -2037,7 +2038,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon122.text = pokemon.nombre
                     } else {
                         ibPokemon122.setImageResource(pokemon.imagenBlack)
-                        tvPokemon122.text = ".???"
+                        tvPokemon122.text = "???"
                     }
                 }
 
@@ -2047,7 +2048,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon123.text = pokemon.nombre
                     } else {
                         ibPokemon123.setImageResource(pokemon.imagenBlack)
-                        tvPokemon123.text = ".???"
+                        tvPokemon123.text = "???"
                     }
                 }
 
@@ -2057,7 +2058,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon124.text = pokemon.nombre
                     } else {
                         ibPokemon124.setImageResource(pokemon.imagenBlack)
-                        tvPokemon124.text = ".???"
+                        tvPokemon124.text = "???"
                     }
                 }
 
@@ -2067,7 +2068,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon125.text = pokemon.nombre
                     } else {
                         ibPokemon125.setImageResource(pokemon.imagenBlack)
-                        tvPokemon125.text = ".???"
+                        tvPokemon125.text = "???"
                     }
                 }
 
@@ -2077,7 +2078,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon126.text = pokemon.nombre
                     } else {
                         ibPokemon126.setImageResource(pokemon.imagenBlack)
-                        tvPokemon126.text = ".???"
+                        tvPokemon126.text = "???"
                     }
                 }
 
@@ -2087,7 +2088,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon127.text = pokemon.nombre
                     } else {
                         ibPokemon127.setImageResource(pokemon.imagenBlack)
-                        tvPokemon127.text = ".???"
+                        tvPokemon127.text = "???"
                     }
                 }
 
@@ -2097,7 +2098,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon128.text = pokemon.nombre
                     } else {
                         ibPokemon128.setImageResource(pokemon.imagenBlack)
-                        tvPokemon128.text = ".???"
+                        tvPokemon128.text = "???"
                     }
                 }
 
@@ -2107,7 +2108,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon129.text = pokemon.nombre
                     } else {
                         ibPokemon129.setImageResource(pokemon.imagenBlack)
-                        tvPokemon129.text = ".???"
+                        tvPokemon129.text = "???"
                     }
                 }
 
@@ -2117,7 +2118,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon130.text = pokemon.nombre
                     } else {
                         ibPokemon130.setImageResource(pokemon.imagenBlack)
-                        tvPokemon130.text = ".???"
+                        tvPokemon130.text = "???"
                     }
                 }
 
@@ -2127,7 +2128,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon131.text = pokemon.nombre
                     } else {
                         ibPokemon131.setImageResource(pokemon.imagenBlack)
-                        tvPokemon131.text = ".???"
+                        tvPokemon131.text = "???"
                     }
                 }
 
@@ -2137,7 +2138,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon132.text = pokemon.nombre
                     } else {
                         ibPokemon132.setImageResource(pokemon.imagenBlack)
-                        tvPokemon132.text = ".???"
+                        tvPokemon132.text = "???"
                     }
                 }
 
@@ -2147,7 +2148,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon133.text = pokemon.nombre
                     } else {
                         ibPokemon133.setImageResource(pokemon.imagenBlack)
-                        tvPokemon133.text = ".???"
+                        tvPokemon133.text = "???"
                     }
                 }
 
@@ -2157,7 +2158,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon134.text = pokemon.nombre
                     } else {
                         ibPokemon134.setImageResource(pokemon.imagenBlack)
-                        tvPokemon134.text = ".???"
+                        tvPokemon134.text = "???"
                     }
                 }
 
@@ -2167,7 +2168,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon135.text = pokemon.nombre
                     } else {
                         ibPokemon135.setImageResource(pokemon.imagenBlack)
-                        tvPokemon135.text = ".???"
+                        tvPokemon135.text = "???"
                     }
                 }
 
@@ -2177,7 +2178,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon136.text = pokemon.nombre
                     } else {
                         ibPokemon136.setImageResource(pokemon.imagenBlack)
-                        tvPokemon136.text = ".???"
+                        tvPokemon136.text = "???"
                     }
                 }
 
@@ -2187,7 +2188,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon137.text = pokemon.nombre
                     } else {
                         ibPokemon137.setImageResource(pokemon.imagenBlack)
-                        tvPokemon137.text = ".???"
+                        tvPokemon137.text = "???"
                     }
                 }
 
@@ -2197,7 +2198,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon138.text = pokemon.nombre
                     } else {
                         ibPokemon138.setImageResource(pokemon.imagenBlack)
-                        tvPokemon138.text = ".???"
+                        tvPokemon138.text = "???"
                     }
                 }
 
@@ -2207,7 +2208,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon139.text = pokemon.nombre
                     } else {
                         ibPokemon139.setImageResource(pokemon.imagenBlack)
-                        tvPokemon139.text = ".???"
+                        tvPokemon139.text = "???"
                     }
                 }
 
@@ -2217,7 +2218,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon140.text = pokemon.nombre
                     } else {
                         ibPokemon140.setImageResource(pokemon.imagenBlack)
-                        tvPokemon140.text = ".???"
+                        tvPokemon140.text = "???"
                     }
                 }
 
@@ -2227,7 +2228,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon141.text = pokemon.nombre
                     } else {
                         ibPokemon141.setImageResource(pokemon.imagenBlack)
-                        tvPokemon141.text = ".???"
+                        tvPokemon141.text = "???"
                     }
                 }
 
@@ -2237,7 +2238,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon142.text = pokemon.nombre
                     } else {
                         ibPokemon142.setImageResource(pokemon.imagenBlack)
-                        tvPokemon142.text = ".???"
+                        tvPokemon142.text = "???"
                     }
                 }
 
@@ -2247,7 +2248,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon143.text = pokemon.nombre
                     } else {
                         ibPokemon143.setImageResource(pokemon.imagenBlack)
-                        tvPokemon143.text = ".???"
+                        tvPokemon143.text = "???"
                     }
                 }
 
@@ -2257,7 +2258,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon144.text = pokemon.nombre
                     } else {
                         ibPokemon144.setImageResource(pokemon.imagenBlack)
-                        tvPokemon144.text = ".???"
+                        tvPokemon144.text = "???"
                     }
                 }
 
@@ -2267,7 +2268,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon145.text = pokemon.nombre
                     } else {
                         ibPokemon145.setImageResource(pokemon.imagenBlack)
-                        tvPokemon145.text = ".???"
+                        tvPokemon145.text = "???"
                     }
                 }
 
@@ -2277,7 +2278,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon146.text = pokemon.nombre
                     } else {
                         ibPokemon146.setImageResource(pokemon.imagenBlack)
-                        tvPokemon146.text = ".???"
+                        tvPokemon146.text = "???"
                     }
                 }
 
@@ -2287,7 +2288,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon147.text = pokemon.nombre
                     } else {
                         ibPokemon147.setImageResource(pokemon.imagenBlack)
-                        tvPokemon147.text = ".???"
+                        tvPokemon147.text = "???"
                     }
                 }
 
@@ -2297,7 +2298,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon148.text = pokemon.nombre
                     } else {
                         ibPokemon148.setImageResource(pokemon.imagenBlack)
-                        tvPokemon148.text = ".???"
+                        tvPokemon148.text = "???"
                     }
                 }
 
@@ -2307,7 +2308,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon149.text = pokemon.nombre
                     } else {
                         ibPokemon149.setImageResource(pokemon.imagenBlack)
-                        tvPokemon149.text = ".???"
+                        tvPokemon149.text = "???"
                     }
                 }
 
@@ -2317,7 +2318,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon150.text = pokemon.nombre
                     } else {
                         ibPokemon150.setImageResource(pokemon.imagenBlack)
-                        tvPokemon150.text = ".???"
+                        tvPokemon150.text = "???"
                     }
                 }
 
@@ -2327,7 +2328,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         tvPokemon151.text = pokemon.nombre
                     } else {
                         ibPokemon151.setImageResource(pokemon.imagenBlack)
-                        tvPokemon151.text = ".???"
+                        tvPokemon151.text = "???"
                     }
                 }
 
@@ -2357,7 +2358,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon1.text = pokemon.nombre
                     }else{
                         binding.ibPokemon1.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon1.text = ".???"
+                        binding.tvPokemon1.text = "???"
                     }
                 }
                 2 ->{
@@ -2366,7 +2367,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon2.text = pokemon.nombre
                     }else{
                         binding.ibPokemon2.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon2.text = ".???"
+                        binding.tvPokemon2.text = "???"
                     }
                 }
                 3 ->{
@@ -2375,7 +2376,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon3.text = pokemon.nombre
                     }else{
                         binding.ibPokemon3.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon3.text = ".???"
+                        binding.tvPokemon3.text = "???"
                     }
                 }
                 4 ->{
@@ -2384,7 +2385,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon4.text = pokemon.nombre
                     }else{
                         binding.ibPokemon4.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon4.text = ".???"
+                        binding.tvPokemon4.text = "???"
                     }
                 }
                 5 ->{
@@ -2393,7 +2394,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon5.text = pokemon.nombre
                     }else{
                         binding.ibPokemon5.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon5.text = ".???"
+                        binding.tvPokemon5.text = "???"
                     }
                 }
                 6 ->{
@@ -2402,7 +2403,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon6.text = pokemon.nombre
                     }else{
                         binding.ibPokemon6.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon6.text = ".???"
+                        binding.tvPokemon6.text = "???"
                     }
                 }
                 7 ->{
@@ -2411,7 +2412,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon7.text = pokemon.nombre
                     }else{
                         binding.ibPokemon7.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon7.text = ".???"
+                        binding.tvPokemon7.text = "???"
                     }
                 }
                 8 ->{
@@ -2420,7 +2421,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon8.text = pokemon.nombre
                     }else{
                         binding.ibPokemon8.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon8.text = ".???"
+                        binding.tvPokemon8.text = "???"
                     }
                 }
                 9 ->{
@@ -2429,7 +2430,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon9.text = pokemon.nombre
                     }else{
                         binding.ibPokemon9.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon9.text = ".???"
+                        binding.tvPokemon9.text = "???"
                     }
                 }
                 10 ->{
@@ -2438,7 +2439,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon10.text = pokemon.nombre
                     }else{
                         binding.ibPokemon10.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon10.text = ".???"
+                        binding.tvPokemon10.text = "???"
                     }
                 }
                 11 ->{
@@ -2447,7 +2448,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon11.text = pokemon.nombre
                     }else{
                         binding.ibPokemon11.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon11.text = ".???"
+                        binding.tvPokemon11.text = "???"
                     }
                 }
                 12 ->{
@@ -2456,7 +2457,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon12.text = pokemon.nombre
                     }else{
                         binding.ibPokemon12.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon12.text = ".???"
+                        binding.tvPokemon12.text = "???"
                     }
                 }
                 13 ->{
@@ -2465,7 +2466,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon13.text = pokemon.nombre
                     }else{
                         binding.ibPokemon13.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon13.text = ".???"
+                        binding.tvPokemon13.text = "???"
                     }
                 }
                 14 ->{
@@ -2474,7 +2475,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon14.text = pokemon.nombre
                     }else{
                         binding.ibPokemon14.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon14.text = ".???"
+                        binding.tvPokemon14.text = "???"
                     }
                 }
                 15 ->{
@@ -2483,7 +2484,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon15.text = pokemon.nombre
                     }else{
                         binding.ibPokemon15.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon15.text = ".???"
+                        binding.tvPokemon15.text = "???"
                     }
                 }
                 16 ->{
@@ -2492,7 +2493,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon16.text = pokemon.nombre
                     }else{
                         binding.ibPokemon16.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon16.text = ".???"
+                        binding.tvPokemon16.text = "???"
                     }
                 }
                 17 ->{
@@ -2501,7 +2502,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon17.text = pokemon.nombre
                     }else{
                         binding.ibPokemon17.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon17.text = ".???"
+                        binding.tvPokemon17.text = "???"
                     }
                 }
                 18 ->{
@@ -2510,7 +2511,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon18.text = pokemon.nombre
                     }else{
                         binding.ibPokemon18.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon18.text = ".???"
+                        binding.tvPokemon18.text = "???"
                     }
                 }
                 19 ->{
@@ -2519,7 +2520,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon19.text = pokemon.nombre
                     }else{
                         binding.ibPokemon19.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon19.text = ".???"
+                        binding.tvPokemon19.text = "???"
                     }
                 }
                 20 ->{
@@ -2528,7 +2529,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon20.text = pokemon.nombre
                     }else{
                         binding.ibPokemon20.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon20.text = ".???"
+                        binding.tvPokemon20.text = "???"
                     }
                 }
                 21 ->{
@@ -2537,7 +2538,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon21.text = pokemon.nombre
                     }else{
                         binding.ibPokemon21.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon21.text = ".???"
+                        binding.tvPokemon21.text = "???"
                     }
                 }
                 22 ->{
@@ -2546,7 +2547,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon22.text = pokemon.nombre
                     }else{
                         binding.ibPokemon22.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon22.text = ".???"
+                        binding.tvPokemon22.text = "???"
                     }
                 }
                 23 ->{
@@ -2555,7 +2556,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon23.text = pokemon.nombre
                     }else{
                         binding.ibPokemon23.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon23.text = ".???"
+                        binding.tvPokemon23.text = "???"
                     }
                 }
                 24 ->{
@@ -2564,7 +2565,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon24.text = pokemon.nombre
                     }else{
                         binding.ibPokemon24.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon24.text = ".???"
+                        binding.tvPokemon24.text = "???"
                     }
                 }
                 25 ->{
@@ -2573,7 +2574,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon25.text = pokemon.nombre
                     }else{
                         binding.ibPokemon25.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon25.text = ".???"
+                        binding.tvPokemon25.text = "???"
                     }
                 }
                 26 ->{
@@ -2582,7 +2583,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon26.text = pokemon.nombre
                     }else{
                         binding.ibPokemon26.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon26.text = ".???"
+                        binding.tvPokemon26.text = "???"
                     }
                 }
                 27 ->{
@@ -2591,7 +2592,7 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
                         binding.tvPokemon27.text = pokemon.nombre
                     }else{
                         binding.ibPokemon27.setImageResource(pokemon.imagenBlack)
-                        binding.tvPokemon27.text = ".???"
+                        binding.tvPokemon27.text = "???"
                     }
                 }
             }
@@ -3686,18 +3687,130 @@ class PokedexActivity : AppCompatActivity(), View.OnClickListener {
         val tvDescripcion = PokemonDialog.findViewById<TextView>(R.id.tvDescripcion)
         val vtipo1 = PokemonDialog.findViewById<View>(R.id.vTipo1)
         val vtipo2 = PokemonDialog.findViewById<View>(R.id.vTipo2)
+        val vDebilidad1 = PokemonDialog.findViewById<View>(R.id.vDebilidad1)
+        val vDebilidad2 = PokemonDialog.findViewById<View>(R.id.vDebilidad2)
+        val vDebilidad3 = PokemonDialog.findViewById<View>(R.id.vDebilidad3)
+        val vDebilidad4 = PokemonDialog.findViewById<View>(R.id.vDebilidad4)
+        val vDebilidad5 = PokemonDialog.findViewById<View>(R.id.vDebilidad5)
+        val vDebilidad6 = PokemonDialog.findViewById<View>(R.id.vDebilidad6)
+        val vDebilidad7 = PokemonDialog.findViewById<View>(R.id.vDebilidad7)
+        val tvDebilidad1 = PokemonDialog.findViewById<TextView>(R.id.tvDebilidad1)
+        val tvDebilidad2 = PokemonDialog.findViewById<TextView>(R.id.tvDebilidad2)
+        val tvDebilidad3 = PokemonDialog.findViewById<TextView>(R.id.tvDebilidad3)
+        val tvDebilidad4 = PokemonDialog.findViewById<TextView>(R.id.tvDebilidad4)
+        val tvDebilidad5 = PokemonDialog.findViewById<TextView>(R.id.tvDebilidad5)
+        val tvDebilidad6 = PokemonDialog.findViewById<TextView>(R.id.tvDebilidad6)
+        val tvDebilidad7 = PokemonDialog.findViewById<TextView>(R.id.tvDebilidad7)
 
         tvnombre.text = pokemon.nombre
         ivFoto.setImageResource(pokemon.imagenColor)
         tvType1.text = pokemon.tipo1
-        vtipo1.setBackgroundColor(pokemon.imagenTipo1)
+        vtipo1.background = ResourcesCompat.getDrawable(resources, pokemon.imagenTipo1, null)
+        if(pokemon.tipo2 == "Ninguno"){
+            tvType2.visibility = View.GONE
+            vtipo2.visibility = View.GONE
+        }
         tvType2.text = pokemon.tipo2
-        vtipo2.setBackgroundColor(pokemon.imagenTipo2)
+        vtipo2.background = ResourcesCompat.getDrawable(resources, pokemon.imagenTipo2, null)
         tvId.text = pokemon.id.toString()
         tvCategory.text = pokemon.categoria
         tvAltura.text = pokemon.altura
         tvPeso.text = pokemon.peso
         tvDescripcion.text = pokemon.descripcion
-
+        vDebilidad1.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad1, null)
+        tvDebilidad1.text = pokemon.debilidad1
+        if(pokemon.debilidad2 == "None"){
+            vDebilidad2.visibility = View.GONE
+            tvDebilidad2.visibility = View.GONE
+            vDebilidad3.visibility = View.GONE
+            tvDebilidad3.visibility = View.GONE
+            vDebilidad4.visibility = View.GONE
+            tvDebilidad4.visibility = View.GONE
+            vDebilidad5.visibility = View.GONE
+            tvDebilidad5.visibility = View.GONE
+            vDebilidad6.visibility = View.GONE
+            tvDebilidad6.visibility = View.GONE
+            vDebilidad7.visibility = View.GONE
+            tvDebilidad7.visibility = View.GONE
+            tvDebilidad2.text = pokemon.debilidad2
+        }else if ( pokemon.debilidad3 == "None") {
+            vDebilidad3.visibility = View.GONE
+            tvDebilidad3.visibility = View.GONE
+            vDebilidad4.visibility = View.GONE
+            tvDebilidad4.visibility = View.GONE
+            vDebilidad5.visibility = View.GONE
+            tvDebilidad5.visibility = View.GONE
+            vDebilidad6.visibility = View.GONE
+            tvDebilidad6.visibility = View.GONE
+            vDebilidad7.visibility = View.GONE
+            tvDebilidad7.visibility = View.GONE
+            tvDebilidad2.text = pokemon.debilidad2
+            vDebilidad2.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad2, null)
+        }else if ( pokemon.debilidad4 == "None") {
+            vDebilidad4.visibility = View.GONE
+            tvDebilidad4.visibility = View.GONE
+            vDebilidad5.visibility = View.GONE
+            tvDebilidad5.visibility = View.GONE
+            vDebilidad6.visibility = View.GONE
+            tvDebilidad6.visibility = View.GONE
+            vDebilidad7.visibility = View.GONE
+            tvDebilidad7.visibility = View.GONE
+            tvDebilidad2.text = pokemon.debilidad2
+            vDebilidad2.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad2, null)
+            tvDebilidad3.text = pokemon.debilidad3
+            vDebilidad3.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad3, null)
+        } else if ( pokemon.debilidad5 == "None") {
+            vDebilidad5.visibility = View.GONE
+            tvDebilidad5.visibility = View.GONE
+            vDebilidad6.visibility = View.GONE
+            tvDebilidad6.visibility = View.GONE
+            vDebilidad7.visibility = View.GONE
+            tvDebilidad7.visibility = View.GONE
+            tvDebilidad2.text = pokemon.debilidad2
+            vDebilidad2.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad2, null)
+            tvDebilidad3.text = pokemon.debilidad3
+            vDebilidad3.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad3, null)
+            tvDebilidad4.text = pokemon.debilidad4
+            vDebilidad4.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad4, null)
+        } else if ( pokemon.debilidad6 == "None") {
+            vDebilidad6.visibility = View.GONE
+            tvDebilidad6.visibility = View.GONE
+            vDebilidad7.visibility = View.GONE
+            tvDebilidad7.visibility = View.GONE
+            tvDebilidad2.text = pokemon.debilidad2
+            vDebilidad2.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad2, null)
+            tvDebilidad3.text = pokemon.debilidad3
+            vDebilidad3.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad3, null)
+            tvDebilidad4.text = pokemon.debilidad4
+            vDebilidad4.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad4, null)
+            tvDebilidad5.text = pokemon.debilidad5
+            vDebilidad5.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad5, null)
+        } else if ( pokemon.debilidad7 == "None") {
+            vDebilidad7.visibility = View.GONE
+            tvDebilidad7.visibility = View.GONE
+            tvDebilidad2.text = pokemon.debilidad2
+            vDebilidad2.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad2, null)
+            tvDebilidad3.text = pokemon.debilidad3
+            vDebilidad3.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad3, null)
+            tvDebilidad4.text = pokemon.debilidad4
+            vDebilidad4.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad4, null)
+            tvDebilidad5.text = pokemon.debilidad5
+            vDebilidad5.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad5, null)
+            tvDebilidad6.text = pokemon.debilidad6
+            vDebilidad6.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad6, null)
+        }else{
+            tvDebilidad2.text = pokemon.debilidad2
+            vDebilidad2.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad2, null)
+            tvDebilidad3.text = pokemon.debilidad3
+            vDebilidad3.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad3, null)
+            tvDebilidad4.text = pokemon.debilidad4
+            vDebilidad4.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad4, null)
+            tvDebilidad5.text = pokemon.debilidad5
+            vDebilidad5.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad5, null)
+            tvDebilidad6.text = pokemon.debilidad6
+            vDebilidad6.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad6, null)
+            tvDebilidad7.text = pokemon.debilidad7
+            vDebilidad7.background = ResourcesCompat.getDrawable(resources, pokemon.imagenDebilidad7, null)
+        }
     }
 }

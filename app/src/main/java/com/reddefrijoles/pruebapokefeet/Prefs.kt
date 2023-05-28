@@ -6,20 +6,18 @@ class Prefs( val context: Context) {
 
     val SHARED_NAME = "MySharedPrefs"
     val SHARED_KEYS = "MySharedKeys"
-    val SHARED_current_STEPS = "MySharedcurrentSteps"
     val SHARED_POKEMONS = "MySharedPokemons"
     val SHARED_PREVIOUS_STEPS = "MySharedTotalSteps"
     val SHARED_STEPS = "MySharedSteps"
-    val SHARED_ACTIVATED = "MySharedActivated"
+    val SHARED_GENERO = "MySharedGenero"
+    val SHARED_EMAIL = "MySharedEmail"
+    val SHARED_USERNAME = "MySharedUsername"
 
 
     val storage = context.getSharedPreferences(SHARED_NAME, 0)
 
 
     fun saveKeys(value: Int) {
-        /* val editor = storage.edit()
-         editor.putInt(SHARED_KEYS, value)
-         editor.apply()*/
         storage.edit().putInt(SHARED_KEYS, value).apply()
     }
 
@@ -35,12 +33,12 @@ class Prefs( val context: Context) {
         return storage.getInt(SHARED_STEPS, 0)
     }
 
-    fun saveActivated(value: Boolean) {
-        storage.edit().putBoolean(SHARED_ACTIVATED, value).apply()
+    fun saveEmail(value: String?) {
+        storage.edit().putString(SHARED_EMAIL, value).apply()
     }
 
-    fun getActivated(): Boolean {
-        return storage.getBoolean(SHARED_ACTIVATED, false)
+    fun getEmail(): String? {
+        return storage.getString(SHARED_EMAIL, "None").toString()
     }
 
     fun savepreviousSteps(value: Int) {
@@ -51,12 +49,8 @@ class Prefs( val context: Context) {
         return storage.getInt(SHARED_PREVIOUS_STEPS, 0)
     }
 
-    fun savecurrentSteps(value: Int) {
-        storage.edit().putInt(SHARED_current_STEPS, value).apply()
-    }
-
-    fun getcurrentSteps(): Int {
-        return storage.getInt(SHARED_current_STEPS, 0)
+    fun savePokemonsDB(value: String) {
+        storage.edit().putString(SHARED_POKEMONS, value).apply()
     }
 
     fun savePokemons(value: String) {
@@ -70,9 +64,9 @@ class Prefs( val context: Context) {
         return storage.getString(SHARED_POKEMONS, "0")
     }
 
-    fun getPokemonsList(): List<Int> {
+    fun getPokemonsList(): MutableList<Int> {
         val pokemons = getPokemonsU()
-        val list = pokemons?.split(",")?.map { it.toInt() }
+        val list= pokemons?.split(",")?.map { it.toInt() }!!.toMutableList()
         //val list = pokemons?.chunked(1)?.map { it.toInt() }
         return list!!
     }
@@ -82,4 +76,19 @@ class Prefs( val context: Context) {
         storage.edit().putString(SHARED_POKEMONS, "0").apply()
     }
 
+    fun getUserName(): String? {
+        return storage.getString(SHARED_USERNAME, "None").toString()
+    }
+
+    fun saveUserName(value: String?) {
+        storage.edit().putString(SHARED_USERNAME, value).apply()
+    }
+
+    fun getGenero(): String? {
+        return storage.getString(SHARED_GENERO, "None").toString()
+    }
+
+    fun saveGenero(value: String?) {
+        storage.edit().putString(SHARED_GENERO, value).apply()
+    }
 }
