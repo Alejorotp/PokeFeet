@@ -149,45 +149,31 @@ class shop_activity : Activity() {
                         mostrarPokemon(num)
                         comprarCofreAgua!!.setOnClickListener { v: View? ->
                             iv_pokemon!!.visibility = ImageView.VISIBLE
-                            Rotate()
-                            scale_from_small()
-                            Start_timer(num)
+                            comprarPokemons("Agua")
                         }
                         comprarCofreFuego!!.setOnClickListener { v: View? ->
                             iv_pokemon!!.visibility = ImageView.VISIBLE
-                            Rotate()
-                            scale_from_small()
-                            Start_timer(num)
+                            comprarPokemons("Fuego")
                         }
                         comprarCofreCueva!!.setOnClickListener { v: View? ->
                             iv_pokemon!!.visibility = ImageView.VISIBLE
-                            Rotate()
-                            scale_from_small()
-                            Start_timer(num)
+                            comprarPokemons("Cueva")
                         }
                         comprarCofrePlanta!!.setOnClickListener { v: View? ->
                             iv_pokemon!!.visibility = ImageView.VISIBLE
-                            Rotate()
-                            scale_from_small()
-                            Start_timer(num)
+                            comprarPokemons("Planta")
                         }
                         comprarCofrePradera!!.setOnClickListener { v: View? ->
                             iv_pokemon!!.visibility = ImageView.VISIBLE
-                            Rotate()
-                            scale_from_small()
-                            Start_timer(num)
+                            comprarPokemons("Pradera")
                         }
                         comprarCofreRey!!.setOnClickListener { v: View? ->
                             iv_pokemon!!.visibility = ImageView.VISIBLE
-                            Rotate()
-                            scale_from_small()
-                            Start_timer(num)
+                            comprarPokemons("Rey")
                         }
                         comprarCofreElectrico!!.setOnClickListener { v: View? ->
                             iv_pokemon!!.visibility = ImageView.VISIBLE
-                            Rotate()
-                            scale_from_small()
-                            Start_timer(num)
+                            comprarPokemons("Eléctrico")
                         }
                     }
                 }.start()
