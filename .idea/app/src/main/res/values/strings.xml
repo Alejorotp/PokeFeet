@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- loading_page strings -->
+
+	<string name="app_name">Pokefeet</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="prefs_file">com.example.firebase.PREFERENCE_FILE_KEY</string>
+	<string name="loading____string">Loading...</string>
+
+	<!-- signup strings -->
+
+	<string name="comienza_tu_aventura__string">Comienza tu aventura!</string>
+	<string name="selecciona_tu_g_nero_string">Selecciona tu género</string>
+	<string name="mujer_string">Mujer</string>
+	<string name="hombre_string">Hombre</string>
+	<string name="otro_string">Otro</string>
+	<string name="escoge_tu_pokem_n_inicial_string">Escoge tu Pokemon inicial</string>
+	<string name="bulbasaur_string">Bulbasaur</string>
+	<string name="charmander_string">Charmander</string>
+	<string name="squirtle_string">Squirtle</string>
+	<string name="registrarse_string">Registrarse</string>
+	<string name="escribe_tu_nombre_string">Escribe tu nombre</string>
+	<string name="yourfriendlyadc_string">Alejoro</string>
+	<string name="escribe_tu_contrase_a_string">Escribe tu contraseña</string>
+	<string name="___________string">*********</string>
+
+
+
+	<string name="stepcount_string">432</string>
+	<string name="pasos_string">Pasos</string>
+	<string name="keycount_string">72</string>
+	<string name="_ltimos_pokemons_adquiridos_string">ltimos Pokemons Adquiridos</string>
+	<string name="progreso__61__string">Progreso: 61%</string>
+	<string name="pasos__127_string">Pasos: 127</string>
+	<string name="pokem_n_en_evoluci_n_string">Pokemn en evolucin</string>
+
+
+	<string name="signos">.???</string>
+	<string name="_123_string">123</string>
+	<string name="_295_string">295</string>
+	<string name="_173_string">173</string>
+	<string name="_89_string">89</string>
+	<string name="_241_string">241</string>
+	<string name="_238_string">238</string>
+	<string name="_268_string">268</string>
+	<string name="l_string">L</string>
+	<string name="m_string">M</string>
+	<string name="m_ek1_string">M</string>
+	<string name="j_string">J</string>
+	<string name="v_string">V</string>
+	<string name="s_string">S</string>
+	<string name="d_string">D</string>
+	<string name="promedio_de_pasos_al_d_a_string">Promedio de pasos al da</string>
+
+
+
+	<string name="tienda_ek1_string">Tienda</string>
+	<string name="pok_dex_string">Pokdex</string>
+	<string name="opciones_ek1_string">Opciones</string>
+	<string name="perfil_ek1_string">Perfil</string>
+</resources>

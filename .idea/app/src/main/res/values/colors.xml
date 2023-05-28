@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- loading_page colors -->
+
+	<color name="colorPrimary">#008577</color>
+	<color name="colorPrimaryDark">#00574B</color>
+	<color name="colorAccent">#D81B60</color>
+	<color name="purple_200">#FFBB86FC</color>
+	<color name="purple_500">#FF6200EE</color>
+	<color name="purple_700">#FF3700B3</color>
+	<color name="teal_200">#FF03DAC5</color>
+	<color name="teal_700">#FF018786</color>
+	<color name="black">#FF000000</color>
+	<color name="white">#FFFFFFFF</color>
+
+	<color name="Vino">#610000</color>
+	<color name="beige">#F9DBDF</color>
+	<color name="rectangleColor">#F4BEC5</color>
+
+	<color name="stepcount_color">#F9DBDF</color>
+	<color name="ellipse_5_color">#393535</color>
+	<color name="rectangle_38_color">#FA6868</color>
+	<color name="rectangle_39_color">#D9D9D9</color>
+	<color name="rectangle_6_color">#F4BEC5</color>
+	<color name="progreso__61__color">#370303</color>
+
+
+	<color name="color321">#370303</color>
+	<color name="_bg__pokemon_card_color">#F4BEC5</color>
+	<color name="rectangle_42_color">#F9DBDF</color>
+	<color name="rectangle_43_color">#55B2D0</color>
+
+	<color name="squirtle_color">#370303</color>
+	<color name="_0_5m_color">#610000</color>
+	<color name="agua_color">#230C0C</color>
+
+	<color name="rectangle_20_color">#F4BEC5</color>
+
+	<color name="agua">#5092C3</color>
+	<color name="lucha">#CD6421</color>
+	<color name="fuego">#F47A22</color>
+	<color name="volador1">#56C7EE</color>
+	<color name="volador2">#BCB8B8</color>
+	<color name="planta">#9DCA53</color>
+	<color name="veneno">#B47FC7</color>
+	<color name="tierra">#F3DC44</color>
+	<color name="tierra2">#A89644</color>
+	<color name="roca">#A08A24</color>
+	<color name="bicho">#769E42</color>
+	<color name="fantasma">#7A62A1</color>
+	<color name="psiquico">#EB64B7</color>
+	<color name="hielo">#98D8D8</color>
+	<color name="dragon1">#5FA4CE</color>
+	<color name="dragon2">#E86B56</color>
+	<color name="acero">#9FB6B7</color>
+	<color name="siniestro">#707070</color>
+	<color name="normal">#A4ABAE</color>
+	<color name="hada">#F8B8E8</color>
+	<color name="electrico">#EAD33A</color>
+
+
+
+
+</resources>
