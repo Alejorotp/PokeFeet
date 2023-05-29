@@ -260,8 +260,16 @@ class main_menu_activity : Activity(), SensorEventListener {
             ivUltimoPokemon.setImageResource(Constants.getPokemonbyId(ultimoPokemon)?.imagenColor!!)
             ivPenultimoPokemon.setImageResource(Constants.getPokemonbyId(penultimoPokemon)?.imagenColor!!)
             ivAntepenultimoPokemon.setImageResource(Constants.getPokemonbyId(antepenultimoPokemon)?.imagenColor!!)
-            ivcasiAntePenultimoPokemon.setImageResource(Constants.getPokemonbyId(casiAntePenultimoPokemon)?.imagenColor!!)
-            ivcasitoAntePenultimoPokemon.setImageResource(Constants.getPokemonbyId(casitoAntePenultimoPokemon)?.imagenColor!!)
+            ivcasiAntePenultimoPokemon.setImageResource(
+                Constants.getPokemonbyId(
+                    casiAntePenultimoPokemon
+                )?.imagenColor!!
+            )
+            ivcasitoAntePenultimoPokemon.setImageResource(
+                Constants.getPokemonbyId(
+                    casitoAntePenultimoPokemon
+                )?.imagenColor!!
+            )
             ivAntepenultimo2Pokemon.setImageResource(Constants.getPokemonbyId(antepenultimo2Pokemon)?.imagenColor!!)
         } else if (pokemons.size == 6) {
             ultimoPokemon = pokemons[pokemons.size - 1]
@@ -272,8 +280,16 @@ class main_menu_activity : Activity(), SensorEventListener {
             ivUltimoPokemon.setImageResource(Constants.getPokemonbyId(ultimoPokemon)?.imagenColor!!)
             ivPenultimoPokemon.setImageResource(Constants.getPokemonbyId(penultimoPokemon)?.imagenColor!!)
             ivAntepenultimoPokemon.setImageResource(Constants.getPokemonbyId(antepenultimoPokemon)?.imagenColor!!)
-            ivcasiAntePenultimoPokemon.setImageResource(Constants.getPokemonbyId(casiAntePenultimoPokemon)?.imagenColor!!)
-            ivcasitoAntePenultimoPokemon.setImageResource(Constants.getPokemonbyId(casitoAntePenultimoPokemon)?.imagenColor!!)
+            ivcasiAntePenultimoPokemon.setImageResource(
+                Constants.getPokemonbyId(
+                    casiAntePenultimoPokemon
+                )?.imagenColor!!
+            )
+            ivcasitoAntePenultimoPokemon.setImageResource(
+                Constants.getPokemonbyId(
+                    casitoAntePenultimoPokemon
+                )?.imagenColor!!
+            )
 
             ivAntepenultimo2Pokemon.setImageResource(R.drawable.pokeball)
         } else if (pokemons.size == 5) {
@@ -284,7 +300,11 @@ class main_menu_activity : Activity(), SensorEventListener {
             ivUltimoPokemon.setImageResource(Constants.getPokemonbyId(ultimoPokemon)?.imagenColor!!)
             ivPenultimoPokemon.setImageResource(Constants.getPokemonbyId(penultimoPokemon)?.imagenColor!!)
             ivAntepenultimoPokemon.setImageResource(Constants.getPokemonbyId(antepenultimoPokemon)?.imagenColor!!)
-            ivcasiAntePenultimoPokemon.setImageResource(Constants.getPokemonbyId(casiAntePenultimoPokemon)?.imagenColor!!)
+            ivcasiAntePenultimoPokemon.setImageResource(
+                Constants.getPokemonbyId(
+                    casiAntePenultimoPokemon
+                )?.imagenColor!!
+            )
 
             ivcasitoAntePenultimoPokemon.setImageResource(R.drawable.pokeball)
             ivAntepenultimo2Pokemon.setImageResource(R.drawable.pokeball)
@@ -432,17 +452,11 @@ class main_menu_activity : Activity(), SensorEventListener {
     override fun onSensorChanged(event: SensorEvent?) {
         // Calling the TextView that we made in activity_main.xml
         // by the id given to that TextView
-        if (event?.sensor?.type == Sensor.TYPE_STEP_DETECTOR) {
-            steps = prefs.getSteps()
-            steps++
-            prefs.saveSteps(steps)
-            changeSteps(steps)
-        } else {
-            // This will help us to get the steps when the user is outside the app
-            if (first) {
+        if (first) {
+            if (event?.sensor?.type == Sensor.TYPE_STEP_COUNTER) {
                 if (previousTotalSteps > event!!.values[0]) {
                     previousTotalSteps = event!!.values[0]
-                } else if (previousTotalSteps == 0f){
+                } else if (previousTotalSteps == 0f) {
                     previousTotalSteps = event!!.values[0]
                 }
                 steps = prefs.getSteps()
@@ -455,6 +469,11 @@ class main_menu_activity : Activity(), SensorEventListener {
                 stepSensor = sensorManager?.getDefaultSensor(Sensor.TYPE_STEP_DETECTOR)
                 sensorManager?.registerListener(this, stepSensor, SensorManager.SENSOR_DELAY_UI)
             }
+        } else if (event?.sensor?.type == Sensor.TYPE_STEP_DETECTOR) {
+            steps = prefs.getSteps()
+            steps++
+            prefs.saveSteps(steps)
+            changeSteps(steps)
         }
     }
 

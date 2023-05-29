@@ -130,6 +130,7 @@ class signup_activity : Activity() {
                         if (task.isSuccessful) {
                             prefs.saveEmail(email)
                             prefs.saveUserName(email)
+                            prefs.saveGenero(genero)
                             db.collection("users").document(email).set(
                                 hashMapOf(
                                     "username" to email,
